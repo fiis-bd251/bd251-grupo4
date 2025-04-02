@@ -1,5 +1,35 @@
-# Detalle de Módulos
+## Detalle de Módulos
 https://gestionysistemas.com
+
+# Responsabilidades
+- Seguimiento de Aprobaciones Verbales
+- Registrar compromisos verbales obtenidos en reuniones o llamadas.
+- Coordinar con los stakeholders clave para la formalización de los acuerdos.
+- Notificar a las áreas involucradas sobre avances en negociaciones.
+- Negociación de Términos y Condiciones
+- Definir estrategias de negociación alineadas con los objetivos comerciales.
+- Coordinar reuniones con clientes y asesores legales para ajustar condiciones contractuales.
+- Identificar y mitigar riesgos contractuales mediante revisiones previas.
+- Redacción y Gestión de Contratos
+- Elaborar contratos basados en acuerdos previos y regulaciones legales aplicables.
+- Gestionar el proceso de firmas y revisiones con clientes y asesores legales.
+- Supervisar la correcta archivación de contratos en los sistemas internos.
+
+# Interacciones con Otros Módulos
+1. Gestión de Prospectos: Proporciona información sobre clientes en proceso de cierre.
+2. Calificación de Oportunidades: Facilita detalles sobre necesidades específicas y toma de decisiones del cliente.
+3. Validación de Requisitos: Confirma que los términos contractuales cumplan con las condiciones pactadas.
+4. Generación de Propuestas: Suministra información sobre acuerdos previos y condiciones comerciales.
+5. Cierre de Ventas: Recibe contratos firmados y garantiza su archivado y disponibilidad para equipos de postventa.
+
+# Procesos Identificados
+1. Procesos Online (Tiempo Real)
+2. Seguimiento de Aprobaciones Verbales: Registro inmediato de compromisos y envío de notificaciones.
+3. Negociación de Términos y Condiciones: Comunicación con clientes y asesores legales en tiempo real.
+4. Firma Electrónica y Validación Legal: Uso de plataformas de firma electrónica con validación inmediata.
+5. Procesos Batch (Ejecución Programada)
+6. Generación y Archivo de Contratos: Generación automática de documentos y almacenamiento en repositorios.
+7. Actualización de Estados Contractuales: Sincronización diaria de estados de contratos en el CRM.
 
 ## 1. ¿Cual es el objetivo de su módulo?
 
