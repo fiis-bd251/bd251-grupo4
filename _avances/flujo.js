@@ -1,4 +1,4 @@
-flowchart TD
+```mermaid
     A[Inicio del Proceso] --> B[Identificación de Necesidades]
     B --> C[Investigación de Mercado]
     C --> D[Evaluación Interna]
