@@ -1,3 +1,5 @@
+MODULO N°2: CALIFICAR
+
 1. ¿Cuál es el objetivo de su módulo?
 El módulo "Calificar" sirve para confirmar si un cliente potencial es real y vale la pena. Revisa si el cliente tiene un problema claro ("dolor"), si está de acuerdo con la solución que le ofrecen, si hay acceso a los jefes que deciden, y documenta todo para seguir adelante. Así la empresa no pierde tiempo con clientes que no van a comprar.
 
