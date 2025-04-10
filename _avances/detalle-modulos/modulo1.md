@@ -1,19 +1,58 @@
-1. ¿Cuál es el objetivo de su módulo?
-El módulo "Calificar" sirve para confirmar si un cliente potencial es real y vale la pena. Revisa si el cliente tiene un problema claro ("dolor"), si está de acuerdo con la solución que le ofrecen, si hay acceso a los jefes que deciden, y documenta todo para seguir adelante. Así la empresa no pierde tiempo con clientes que no van a comprar.
+## 1. ¿Cuál es el objetivo de su módulo?
+El objetivo principal del módulo de Prospección es identificar, clasificar y gestionar potenciales clientes o oportunidades de negocio para la organización. Funciona como el primer eslabón en el proceso comercial, permitiendo:
 
-2. ¿A quién beneficia el funcionamiento de su módulo?
-Internos: El equipo de ventas trabaja solo con clientes serios, y los jefes evitan proyectos que no sirven. Clientes: Empresas que buscan soluciones digitales, porque les aseguren que sus problemas se entienden y las soluciones se adaptan a lo que necesitan.
+- Captar nuevos leads o contactos comerciales  
+- Evaluar el potencial de cada prospecto  
+- Segmentar oportunidades según criterios estratégicos  
+- Nutrir el pipeline de ventas con oportunidades calificadas  
 
-3. ¿Qué resultado genera? ¿Es un producto o servicio? ¿Qué características tiene?
-El resultado es una lista de clientes "buenos" que pasan a la siguiente etapa. Es un servicio que incluye: identificar el problema del cliente, proponer soluciones (como sistemas de gestión o automatización), chequear quién decide en la empresa y guardar toda la info en un sistema (CRM).
+## 2. ¿A quién beneficia el funcionamiento de su módulo (área interna, cliente - persona o empresa)?
+El módulo beneficia a:
 
-4. ¿Qué recursos se emplean?
-Personas: Vendedores, expertos en tecnología y gerentes.
-Herramientas: Programas como Salesforce para organizar clientes, plantillas para documentos.
-Métodos: Reuniones con clientes, acuerdos de confidencialidad.
+- **Áreas internas**: Equipos comerciales, marketing y gestión de clientes  
+- **Clientes externos**: Tanto personas físicas como empresas que podrían beneficiarse de los productos/servicios de la organización  
+- **Gestión estratégica**: Proporciona datos para la toma de decisiones comerciales  
 
-5. ¿Cómo se planifican los recursos?
-Usan métodos ágiles (como Scrum) para organizar el tiempo, programas que priorizan clientes importantes, y entrenan al equipo en tecnologías nuevas (como inteligencia artificial). Así trabajan más rápido y mejor.
+## 3. ¿Qué resultado genera su módulo? ¿Es un producto o un servicio? ¿Qué características tiene?
+El módulo produce:
 
-6. ¿Cómo se reserva el uso/propiedad?
-La empresa guarda toda la información (documentos, soluciones) de forma segura. Hasta que se firme un contrato, las ideas son de la empresa. Los clientes firman acuerdos para que no se comparta su info. Todo queda guardado en sistemas con acceso limitado.
+- **Servicio**: Gestión de oportunidades comerciales  
+- **Productos derivados**:  
+  - Bases de datos de prospectos segmentados  
+  - Reportes de potencial comercial  
+  - Pipeline de ventas  
+
+**Características principales**:
+
+- Sistema de scoring/priorización de leads  
+- Herramientas de seguimiento y recordatorios  
+- Integración con otros módulos comerciales (CRM, ventas)  
+- Análisis de conversión y efectividad  
+
+## 4. ¿Qué recursos se emplean para obtener dicho resultado?
+Para su funcionamiento requiere:
+
+- **Humanos**: Equipos comerciales, analistas de mercado, telemarketers  
+- **Tecnológicos**: Plataforma de CRM, herramientas de análisis de datos, sistemas de comunicación  
+- **Informacionales**: Bases de datos de contacto, estudios de mercado, inteligencia competitiva  
+- **Financieros**: Presupuesto para adquisición de leads, campañas de prospección  
+
+## 5. ¿Cómo se planifican el uso de estos recursos?
+La gestión de recursos se realiza mediante:
+
+- Asignación por territorios/segmentos de mercado  
+- Calendarización de campañas de prospección  
+- Presupuestos asignados por canal (digital, telefónico, presencial)  
+- Cuotas y objetivos por ejecutivo comercial  
+- Sistemas de priorización automática basada en potencial estimado  
+
+## 6. ¿Cómo se reserva el uso / la propiedad del producto o servicio generado?
+La propiedad y uso se gestiona mediante:
+
+- **Propiedad**: Los datos y oportunidades pertenecen a la organización  
+- **Acceso**: Niveles de permisos por roles (ejecutivo, gerente, analista)  
+- **Asignación**: Sistemas de turnos o reglas para distribución de leads  
+- **Confidencialidad**: Acuerdos de protección de datos personales  
+- **Retención**: Políticas de conservación/eliminación de datos inactivos  
+
+
