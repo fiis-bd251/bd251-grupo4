@@ -24,6 +24,7 @@
   - [3.3. Módulo 3](./3/3.3/3.3.md)
   - [3.4. Módulo 4](./3/3.4/3.4.md)
   - [3.5. Módulo 5](./3/3.5/3.5.md)
+  - [3.6. Módulo 6](./3/3.6/3.6.md)
 - [4. Modelo Conceptual](./4/4.md)
   - [4.1. Diagrama Entidad Relación](./4/4.1/4.1.md)
   - [4.2. Diccionario de Datos](./4/4.2/4.2.md)
