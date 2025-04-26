@@ -32,3 +32,8 @@
   - [5.1. Esquema Relacional (Gráfico)](./5/5.1/5.1.md)
   - [5.2. Diccionario de Datos](./5/5.2/5.2.md)
   - [5.3. Documentación de Ajustes al Modelo](./5/5.3/5.3.md)
+- [6. Creación de Tablas y Poblamiento de datos](./6/6.md)
+  - [6.1. Creación de Tablas](./6/6.1/6.1.md)
+  - [6.2. Poblamiento Inicial de Datos](./6/6.2/6.2.md)
+  - [6.3. Carga Masiva de Datos](./6/6.3/6.3.md)
+  
