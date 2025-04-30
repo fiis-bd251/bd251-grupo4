@@ -312,9 +312,7 @@ INSERT INTO Opciones_comerciales (id_opciones_comerciales, tipo_opcion, detalle_
 
 -- Poblamiento de Personal_asignado (10 filas)
 INSERT INTO Personal_asignado (
-  id_personal_asignado, nombre_personal, telefono__personal,
-  disponibilidad_personal, fecha_asignacion, id_rol
-) VALUES
+  id_personal_asignado, nombre_personal, telefono__personal,disponibilidad_personal, fecha_asignacion, id_rol) VALUES
   (1,  'Juan Pérez',    987654321, 'Tiempo Completo', '2025-02-01', 7),
   (2,  'María López',   912345678, 'Medio Tiempo',    '2025-02-05', 8),
   (3,  'Carlos Ruiz',   999888777, 'Tiempo Completo', '2025-02-10', 3),
@@ -693,15 +691,16 @@ INSERT INTO Agenda_ec (agenda_ec, fecha_dispo, inicio_dispo, final_dispo, estado
   ('AGENDA008','2025-04-23','10:30:00','11:30:00','Reservada',  8);
 
 -- Poblamiento de Dolor (8 filas)
-INSERT INTO Dolor (id_dolor, nombre_dolor, industria, id_cliente, id_ejecutivo_comercial, id_visita) VALUES
-  (1, 'Performance',   'Tecnología', 1, 1, 1),
-  (2, 'Seguridad',     'Salud',      2, 2, 2),
-  (3, 'Usabilidad',    'Educación',  3, 3, 3),
-  (4, 'Escalabilidad', 'Finanzas',   4, 4, 4),
-  (5, 'Integración',   'Manufactura',5, 5, 5),
-  (6, 'Costo',         'Retail',     6, 6, 6),
-  (7, 'Conectividad',  'Energía',    7, 7, 7),
-  (8, 'Disponibilidad','Transporte', 8, 8, 8);
+INSERT INTO Dolor (id_dolor, nombre_dolor, cod_sector, id_cliente, id_ejecutivo_comercial, id_visita) VALUES
+  (1, 'Performance',   1, 1, 1, 1),
+  (2, 'Seguridad',     2, 2, 2, 2),
+  (3, 'Usabilidad',    3, 3, 3, 3),
+  (4, 'Escalabilidad', 4, 4, 4, 4),
+  (5, 'Integración',   5, 5, 5, 5),
+  (6, 'Costo',         6, 6, 6, 6),
+  (7, 'Conectividad',  7, 7, 7, 7),
+  (8, 'Disponibilidad',8, 8, 8, 8);
+
 
 -- Poblamiento de Convocatoria (5 filas)
 INSERT INTO Convocatoria (id_convocatoria, fecha_publicacon, fecha_limite, es_formal, id_dolor, cod_tipo_convocatoria) VALUES
