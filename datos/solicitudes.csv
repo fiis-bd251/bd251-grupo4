@@ -1,0 +1,1001 @@
+id_solicitud,descripción_solicitud,fecha_solicitud,fecha_firma,id_cliente
+SOL-1001,Desarrollo de sistema a medida,2023-05-02,2023-05-07,2
+SOL-1002,Desarrollo de sistema a medida,2025-04-05,2025-04-12,3
+SOL-1003,Desarrollo de sistema a medida,2022-07-17,2022-07-23,3
+SOL-1004,Evaluación de satisfacción del cliente,2024-09-12,2024-10-04,1
+SOL-1005,Implementación de redes locales,2022-01-13,2022-01-18,4
+SOL-1006,Revisión de contrato marco,2022-06-01,2022-06-08,2
+SOL-1007,Consultoría para digitalización,2023-11-29,2023-12-26,4
+SOL-1008,Instalación de cableado estructurado,2023-01-09,2023-01-28,4
+SOL-1009,Desarrollo de sistema a medida,2020-11-13,2020-12-04,5
+SOL-1010,Instalación de cableado estructurado,2023-09-30,2023-10-18,5
+SOL-1011,Consultoría para digitalización,2023-08-04,2023-08-06,3
+SOL-1012,Mantenimiento de servidores antiguos,2023-12-10,2024-01-05,4
+SOL-1013,Auditoría de procesos internos,2024-04-30,2024-05-10,1
+SOL-1014,Capacitación técnica al personal,2023-12-04,2023-12-08,2
+SOL-1015,Revisión de contrato marco,2021-03-12,2021-03-21,1
+SOL-1016,Consultoría para digitalización,2022-09-09,2022-09-10,5
+SOL-1017,Evaluación de satisfacción del cliente,2022-03-22,2022-03-26,3
+SOL-1018,Desarrollo de sistema a medida,2020-12-27,2021-01-10,4
+SOL-1019,Desarrollo de sistema a medida,2024-11-29,2024-12-01,3
+SOL-1020,Consultoría para digitalización,2022-10-04,2022-10-17,4
+SOL-1021,Instalación de cableado estructurado,2024-12-02,2024-12-29,3
+SOL-1022,Desarrollo de sistema a medida,2022-05-19,2022-06-13,2
+SOL-1023,Evaluación de satisfacción del cliente,2020-07-27,2020-08-04,2
+SOL-1024,Auditoría de procesos internos,2020-09-15,2020-09-21,2
+SOL-1025,Implementación de redes locales,2020-08-14,2020-09-12,1
+SOL-1026,Auditoría de procesos internos,2023-04-07,2023-05-07,4
+SOL-1027,Auditoría de procesos internos,2023-08-18,2023-09-05,1
+SOL-1028,Instalación de cableado estructurado,2021-10-01,2021-10-25,3
+SOL-1029,Revisión de contrato marco,2025-02-03,2025-02-05,3
+SOL-1030,Revisión de contrato marco,2022-06-29,2022-07-16,5
+SOL-1031,Instalación de cableado estructurado,2022-11-15,2022-11-16,5
+SOL-1032,Actualización de sistema contable,2023-10-24,2023-11-15,4
+SOL-1033,Actualización de sistema contable,2021-02-21,2021-03-21,4
+SOL-1034,Capacitación técnica al personal,2023-01-11,2023-02-10,2
+SOL-1035,Evaluación de satisfacción del cliente,2023-12-02,2023-12-04,1
+SOL-1036,Evaluación de satisfacción del cliente,2020-04-09,2020-05-03,2
+SOL-1037,Actualización de sistema contable,2021-11-06,2021-11-14,2
+SOL-1038,Evaluación de satisfacción del cliente,2024-08-21,2024-09-20,4
+SOL-1039,Evaluación de satisfacción del cliente,2023-05-12,2023-06-02,4
+SOL-1040,Instalación de cableado estructurado,2024-09-05,2024-09-09,5
+SOL-1041,Capacitación técnica al personal,2021-03-10,2021-04-02,4
+SOL-1042,Evaluación de satisfacción del cliente,2023-10-05,2023-10-19,3
+SOL-1043,Implementación de redes locales,2022-10-31,2022-11-25,2
+SOL-1044,Instalación de cableado estructurado,2020-02-09,2020-03-10,2
+SOL-1045,Mantenimiento de servidores antiguos,2021-06-14,2021-07-05,5
+SOL-1046,Revisión de contrato marco,2022-02-17,2022-02-17,5
+SOL-1047,Consultoría para digitalización,2021-11-01,2021-11-20,1
+SOL-1048,Desarrollo de sistema a medida,2021-07-07,2021-07-22,2
+SOL-1049,Auditoría de procesos internos,2023-11-29,2023-12-29,2
+SOL-1050,Actualización de sistema contable,2024-04-25,2024-05-14,3
+SOL-1051,Evaluación de satisfacción del cliente,2020-05-09,2020-06-03,1
+SOL-1052,Desarrollo de sistema a medida,2024-03-20,2024-03-26,4
+SOL-1053,Actualización de sistema contable,2023-01-14,2023-01-22,5
+SOL-1054,Instalación de cableado estructurado,2023-07-07,2023-08-03,3
+SOL-1055,Capacitación técnica al personal,2020-07-16,2020-07-20,1
+SOL-1056,Evaluación de satisfacción del cliente,2022-09-26,2022-10-23,1
+SOL-1057,Mantenimiento de servidores antiguos,2021-09-26,2021-10-25,5
+SOL-1058,Implementación de redes locales,2025-03-09,2025-03-24,4
+SOL-1059,Revisión de contrato marco,2023-03-26,2023-03-30,1
+SOL-1060,Evaluación de satisfacción del cliente,2021-12-10,2021-12-26,2
+SOL-1061,Revisión de contrato marco,2024-03-04,2024-03-24,4
+SOL-1062,Capacitación técnica al personal,2021-06-22,2021-07-18,4
+SOL-1063,Actualización de sistema contable,2025-04-09,2025-05-07,3
+SOL-1064,Instalación de cableado estructurado,2023-11-10,2023-12-03,2
+SOL-1065,Revisión de contrato marco,2020-10-05,2020-10-06,3
+SOL-1066,Actualización de sistema contable,2023-02-18,2023-03-03,4
+SOL-1067,Desarrollo de sistema a medida,2021-09-21,2021-09-23,5
+SOL-1068,Capacitación técnica al personal,2023-04-13,2023-05-01,2
+SOL-1069,Evaluación de satisfacción del cliente,2025-04-01,2025-04-28,1
+SOL-1070,Instalación de cableado estructurado,2022-08-28,2022-09-02,1
+SOL-1071,Evaluación de satisfacción del cliente,2024-12-28,2024-12-31,2
+SOL-1072,Desarrollo de sistema a medida,2021-06-10,2021-07-08,5
+SOL-1073,Auditoría de procesos internos,2024-05-05,2024-05-06,1
+SOL-1074,Consultoría para digitalización,2022-09-28,2022-10-25,1
+SOL-1075,Actualización de sistema contable,2023-09-21,2023-09-29,1
+SOL-1076,Revisión de contrato marco,2021-04-02,2021-05-02,2
+SOL-1077,Evaluación de satisfacción del cliente,2021-09-22,2021-10-01,5
+SOL-1078,Mantenimiento de servidores antiguos,2021-01-24,2021-02-09,1
+SOL-1079,Instalación de cableado estructurado,2021-12-31,2022-01-29,1
+SOL-1080,Actualización de sistema contable,2021-03-26,2021-03-27,5
+SOL-1081,Mantenimiento de servidores antiguos,2024-09-06,2024-09-14,3
+SOL-1082,Consultoría para digitalización,2025-02-20,2025-03-18,1
+SOL-1083,Desarrollo de sistema a medida,2025-03-20,2025-03-29,3
+SOL-1084,Auditoría de procesos internos,2022-04-01,2022-04-16,1
+SOL-1085,Consultoría para digitalización,2020-06-09,2020-07-04,4
+SOL-1086,Desarrollo de sistema a medida,2020-12-20,2020-12-23,4
+SOL-1087,Actualización de sistema contable,2023-03-30,2023-04-16,3
+SOL-1088,Implementación de redes locales,2022-06-03,2022-06-27,1
+SOL-1089,Implementación de redes locales,2020-10-02,2020-10-22,4
+SOL-1090,Revisión de contrato marco,2020-10-08,2020-10-20,1
+SOL-1091,Evaluación de satisfacción del cliente,2021-12-01,2021-12-19,3
+SOL-1092,Actualización de sistema contable,2024-03-03,2024-03-29,4
+SOL-1093,Mantenimiento de servidores antiguos,2023-11-16,2023-12-08,3
+SOL-1094,Consultoría para digitalización,2022-02-27,2022-03-13,5
+SOL-1095,Actualización de sistema contable,2022-02-17,2022-03-10,3
+SOL-1096,Revisión de contrato marco,2023-12-24,2024-01-16,2
+SOL-1097,Actualización de sistema contable,2024-02-09,2024-02-16,3
+SOL-1098,Revisión de contrato marco,2023-08-17,2023-08-26,1
+SOL-1099,Consultoría para digitalización,2024-10-01,2024-10-08,3
+SOL-1100,Actualización de sistema contable,2023-05-14,2023-05-18,2
+SOL-1101,Capacitación técnica al personal,2023-10-31,2023-11-19,4
+SOL-1102,Auditoría de procesos internos,2022-07-14,2022-07-27,4
+SOL-1103,Revisión de contrato marco,2022-05-04,2022-05-09,4
+SOL-1104,Revisión de contrato marco,2023-12-30,2023-12-31,3
+SOL-1105,Auditoría de procesos internos,2025-03-08,2025-04-04,3
+SOL-1106,Auditoría de procesos internos,2022-08-12,2022-09-05,4
+SOL-1107,Auditoría de procesos internos,2021-09-01,2021-09-30,5
+SOL-1108,Mantenimiento de servidores antiguos,2021-07-23,2021-08-07,1
+SOL-1109,Capacitación técnica al personal,2021-12-03,2021-12-20,4
+SOL-1110,Auditoría de procesos internos,2022-02-08,2022-03-02,5
+SOL-1111,Evaluación de satisfacción del cliente,2024-08-09,2024-09-04,2
+SOL-1112,Auditoría de procesos internos,2024-11-27,2024-12-22,5
+SOL-1113,Consultoría para digitalización,2022-09-21,2022-09-26,3
+SOL-1114,Consultoría para digitalización,2022-10-16,2022-10-22,3
+SOL-1115,Capacitación técnica al personal,2024-05-27,2024-06-23,1
+SOL-1116,Revisión de contrato marco,2022-01-13,2022-02-09,1
+SOL-1117,Evaluación de satisfacción del cliente,2023-01-26,2023-02-20,3
+SOL-1118,Revisión de contrato marco,2022-07-11,2022-07-14,4
+SOL-1119,Desarrollo de sistema a medida,2023-07-28,2023-08-14,4
+SOL-1120,Auditoría de procesos internos,2021-07-04,2021-07-25,2
+SOL-1121,Capacitación técnica al personal,2021-03-10,2021-03-29,5
+SOL-1122,Actualización de sistema contable,2023-09-08,2023-09-10,2
+SOL-1123,Instalación de cableado estructurado,2024-01-27,2024-02-10,3
+SOL-1124,Implementación de redes locales,2023-01-23,2023-02-18,4
+SOL-1125,Capacitación técnica al personal,2023-03-12,2023-03-13,2
+SOL-1126,Actualización de sistema contable,2023-06-18,2023-07-07,5
+SOL-1127,Consultoría para digitalización,2024-01-14,2024-02-04,1
+SOL-1128,Implementación de redes locales,2020-04-22,2020-05-05,5
+SOL-1129,Desarrollo de sistema a medida,2021-03-02,2021-03-15,4
+SOL-1130,Consultoría para digitalización,2021-01-01,2021-01-26,2
+SOL-1131,Instalación de cableado estructurado,2024-05-02,2024-05-15,2
+SOL-1132,Actualización de sistema contable,2024-09-21,2024-10-05,4
+SOL-1133,Mantenimiento de servidores antiguos,2021-11-22,2021-12-21,2
+SOL-1134,Consultoría para digitalización,2022-04-11,2022-04-19,2
+SOL-1135,Evaluación de satisfacción del cliente,2023-05-09,2023-05-09,2
+SOL-1136,Auditoría de procesos internos,2022-08-14,2022-08-23,2
+SOL-1137,Implementación de redes locales,2025-03-14,2025-04-11,3
+SOL-1138,Implementación de redes locales,2022-09-24,2022-10-08,3
+SOL-1139,Actualización de sistema contable,2023-03-03,2023-03-18,5
+SOL-1140,Mantenimiento de servidores antiguos,2020-02-05,2020-02-25,4
+SOL-1141,Revisión de contrato marco,2022-08-08,2022-08-17,2
+SOL-1142,Actualización de sistema contable,2020-06-06,2020-07-05,4
+SOL-1143,Desarrollo de sistema a medida,2024-07-26,2024-08-21,5
+SOL-1144,Revisión de contrato marco,2022-03-23,2022-04-22,5
+SOL-1145,Actualización de sistema contable,2023-02-21,2023-02-25,1
+SOL-1146,Evaluación de satisfacción del cliente,2024-01-29,2024-02-19,3
+SOL-1147,Mantenimiento de servidores antiguos,2023-07-19,2023-08-02,5
+SOL-1148,Desarrollo de sistema a medida,2024-01-04,2024-02-03,5
+SOL-1149,Consultoría para digitalización,2020-06-29,2020-07-09,3
+SOL-1150,Capacitación técnica al personal,2020-11-28,2020-12-04,2
+SOL-1151,Mantenimiento de servidores antiguos,2023-03-28,2023-04-06,4
+SOL-1152,Revisión de contrato marco,2023-06-30,2023-07-27,3
+SOL-1153,Revisión de contrato marco,2024-12-28,2025-01-27,5
+SOL-1154,Instalación de cableado estructurado,2023-05-23,2023-06-08,5
+SOL-1155,Actualización de sistema contable,2023-11-28,2023-12-24,5
+SOL-1156,Actualización de sistema contable,2024-07-14,2024-08-01,5
+SOL-1157,Instalación de cableado estructurado,2021-10-25,2021-11-15,3
+SOL-1158,Mantenimiento de servidores antiguos,2021-04-27,2021-05-23,2
+SOL-1159,Instalación de cableado estructurado,2022-02-27,2022-03-26,1
+SOL-1160,Consultoría para digitalización,2024-06-15,2024-07-14,1
+SOL-1161,Actualización de sistema contable,2020-10-22,2020-11-18,2
+SOL-1162,Consultoría para digitalización,2021-06-19,2021-07-06,4
+SOL-1163,Capacitación técnica al personal,2024-06-27,2024-07-14,4
+SOL-1164,Auditoría de procesos internos,2020-07-18,2020-07-22,2
+SOL-1165,Mantenimiento de servidores antiguos,2023-12-19,2023-12-20,5
+SOL-1166,Consultoría para digitalización,2024-06-06,2024-06-27,5
+SOL-1167,Evaluación de satisfacción del cliente,2022-02-19,2022-03-09,5
+SOL-1168,Auditoría de procesos internos,2022-03-23,2022-04-08,2
+SOL-1169,Consultoría para digitalización,2023-02-09,2023-02-10,1
+SOL-1170,Evaluación de satisfacción del cliente,2022-06-11,2022-07-09,2
+SOL-1171,Mantenimiento de servidores antiguos,2023-08-04,2023-08-07,4
+SOL-1172,Capacitación técnica al personal,2024-03-26,2024-04-12,3
+SOL-1173,Implementación de redes locales,2023-11-14,2023-11-23,4
+SOL-1174,Evaluación de satisfacción del cliente,2024-06-16,2024-06-24,5
+SOL-1175,Instalación de cableado estructurado,2024-07-24,2024-08-14,4
+SOL-1176,Mantenimiento de servidores antiguos,2023-03-21,2023-03-24,5
+SOL-1177,Desarrollo de sistema a medida,2025-01-01,2025-01-08,2
+SOL-1178,Desarrollo de sistema a medida,2024-12-24,2025-01-03,2
+SOL-1179,Implementación de redes locales,2025-01-11,2025-02-06,2
+SOL-1180,Desarrollo de sistema a medida,2024-08-06,2024-08-06,3
+SOL-1181,Mantenimiento de servidores antiguos,2020-10-13,2020-11-01,3
+SOL-1182,Mantenimiento de servidores antiguos,2024-07-22,2024-08-06,3
+SOL-1183,Implementación de redes locales,2020-09-04,2020-09-11,1
+SOL-1184,Mantenimiento de servidores antiguos,2023-05-12,2023-06-08,4
+SOL-1185,Evaluación de satisfacción del cliente,2025-03-03,2025-03-20,3
+SOL-1186,Capacitación técnica al personal,2022-07-06,2022-07-14,5
+SOL-1187,Mantenimiento de servidores antiguos,2024-11-27,2024-12-10,1
+SOL-1188,Consultoría para digitalización,2021-04-23,2021-05-20,1
+SOL-1189,Implementación de redes locales,2022-05-25,2022-05-27,5
+SOL-1190,Revisión de contrato marco,2025-02-13,2025-03-02,4
+SOL-1191,Actualización de sistema contable,2022-09-12,2022-09-13,5
+SOL-1192,Auditoría de procesos internos,2024-11-27,2024-12-17,1
+SOL-1193,Desarrollo de sistema a medida,2021-02-07,2021-02-07,1
+SOL-1194,Capacitación técnica al personal,2020-08-17,2020-08-22,4
+SOL-1195,Evaluación de satisfacción del cliente,2022-11-09,2022-12-01,2
+SOL-1196,Revisión de contrato marco,2022-12-16,2023-01-08,2
+SOL-1197,Consultoría para digitalización,2023-03-22,2023-04-02,1
+SOL-1198,Auditoría de procesos internos,2020-02-15,2020-03-15,5
+SOL-1199,Revisión de contrato marco,2023-04-07,2023-04-13,4
+SOL-1200,Evaluación de satisfacción del cliente,2021-04-16,2021-04-24,2
+SOL-1201,Mantenimiento de servidores antiguos,2020-02-20,2020-02-25,1
+SOL-1202,Capacitación técnica al personal,2021-11-19,2021-11-28,5
+SOL-1203,Revisión de contrato marco,2024-03-24,2024-04-06,4
+SOL-1204,Consultoría para digitalización,2022-06-23,2022-07-06,3
+SOL-1205,Evaluación de satisfacción del cliente,2020-09-08,2020-09-29,5
+SOL-1206,Implementación de redes locales,2023-05-21,2023-06-03,5
+SOL-1207,Instalación de cableado estructurado,2021-05-13,2021-05-29,3
+SOL-1208,Implementación de redes locales,2023-03-13,2023-03-29,5
+SOL-1209,Instalación de cableado estructurado,2024-07-15,2024-07-15,2
+SOL-1210,Capacitación técnica al personal,2024-10-16,2024-11-01,1
+SOL-1211,Instalación de cableado estructurado,2024-12-24,2025-01-13,4
+SOL-1212,Capacitación técnica al personal,2023-10-03,2023-11-01,1
+SOL-1213,Capacitación técnica al personal,2024-05-12,2024-06-06,5
+SOL-1214,Revisión de contrato marco,2023-10-07,2023-10-10,4
+SOL-1215,Auditoría de procesos internos,2024-05-01,2024-05-04,4
+SOL-1216,Mantenimiento de servidores antiguos,2020-07-13,2020-07-30,1
+SOL-1217,Evaluación de satisfacción del cliente,2020-04-28,2020-05-04,1
+SOL-1218,Revisión de contrato marco,2022-05-13,2022-05-19,3
+SOL-1219,Desarrollo de sistema a medida,2020-03-29,2020-04-20,1
+SOL-1220,Capacitación técnica al personal,2024-12-04,2024-12-17,1
+SOL-1221,Evaluación de satisfacción del cliente,2021-10-23,2021-10-27,5
+SOL-1222,Capacitación técnica al personal,2022-01-19,2022-02-17,4
+SOL-1223,Revisión de contrato marco,2021-06-10,2021-06-20,3
+SOL-1224,Auditoría de procesos internos,2022-05-06,2022-06-03,3
+SOL-1225,Evaluación de satisfacción del cliente,2024-11-19,2024-12-01,3
+SOL-1226,Auditoría de procesos internos,2022-07-16,2022-08-11,2
+SOL-1227,Auditoría de procesos internos,2024-03-25,2024-04-06,4
+SOL-1228,Consultoría para digitalización,2022-08-11,2022-08-19,1
+SOL-1229,Capacitación técnica al personal,2024-05-11,2024-06-09,4
+SOL-1230,Consultoría para digitalización,2020-07-29,2020-08-22,3
+SOL-1231,Actualización de sistema contable,2024-12-31,2025-01-23,4
+SOL-1232,Consultoría para digitalización,2023-08-13,2023-08-18,5
+SOL-1233,Desarrollo de sistema a medida,2022-12-29,2023-01-24,1
+SOL-1234,Consultoría para digitalización,2022-03-31,2022-04-26,4
+SOL-1235,Actualización de sistema contable,2022-06-21,2022-06-21,2
+SOL-1236,Actualización de sistema contable,2025-04-09,2025-04-23,2
+SOL-1237,Mantenimiento de servidores antiguos,2023-03-27,2023-04-05,4
+SOL-1238,Evaluación de satisfacción del cliente,2022-04-04,2022-04-27,1
+SOL-1239,Actualización de sistema contable,2022-10-01,2022-10-07,4
+SOL-1240,Implementación de redes locales,2021-10-27,2021-10-28,5
+SOL-1241,Evaluación de satisfacción del cliente,2023-03-25,2023-04-21,2
+SOL-1242,Auditoría de procesos internos,2021-11-22,2021-11-27,2
+SOL-1243,Revisión de contrato marco,2020-09-23,2020-10-06,4
+SOL-1244,Implementación de redes locales,2023-07-27,2023-08-14,4
+SOL-1245,Consultoría para digitalización,2025-01-17,2025-01-25,3
+SOL-1246,Evaluación de satisfacción del cliente,2022-12-09,2022-12-27,4
+SOL-1247,Revisión de contrato marco,2021-11-06,2021-11-19,2
+SOL-1248,Capacitación técnica al personal,2021-06-28,2021-07-03,1
+SOL-1249,Mantenimiento de servidores antiguos,2021-08-14,2021-09-13,5
+SOL-1250,Auditoría de procesos internos,2021-12-13,2021-12-15,5
+SOL-1251,Desarrollo de sistema a medida,2020-09-26,2020-09-30,4
+SOL-1252,Implementación de redes locales,2023-01-16,2023-01-16,2
+SOL-1253,Consultoría para digitalización,2021-05-20,2021-05-23,4
+SOL-1254,Instalación de cableado estructurado,2021-03-06,2021-03-25,4
+SOL-1255,Capacitación técnica al personal,2022-05-03,2022-05-15,1
+SOL-1256,Evaluación de satisfacción del cliente,2022-09-20,2022-10-20,3
+SOL-1257,Auditoría de procesos internos,2024-04-28,2024-05-08,5
+SOL-1258,Instalación de cableado estructurado,2020-12-12,2020-12-30,1
+SOL-1259,Auditoría de procesos internos,2025-02-13,2025-02-16,1
+SOL-1260,Actualización de sistema contable,2022-12-30,2022-12-31,2
+SOL-1261,Capacitación técnica al personal,2021-08-02,2021-08-04,3
+SOL-1262,Evaluación de satisfacción del cliente,2022-03-05,2022-03-10,4
+SOL-1263,Instalación de cableado estructurado,2022-08-09,2022-09-04,5
+SOL-1264,Desarrollo de sistema a medida,2022-05-26,2022-06-18,2
+SOL-1265,Actualización de sistema contable,2024-04-12,2024-04-20,5
+SOL-1266,Auditoría de procesos internos,2023-08-02,2023-08-07,4
+SOL-1267,Implementación de redes locales,2021-03-31,2021-04-12,4
+SOL-1268,Evaluación de satisfacción del cliente,2024-07-04,2024-07-21,1
+SOL-1269,Instalación de cableado estructurado,2022-09-12,2022-09-21,2
+SOL-1270,Evaluación de satisfacción del cliente,2020-08-01,2020-08-17,4
+SOL-1271,Capacitación técnica al personal,2024-06-21,2024-07-02,3
+SOL-1272,Desarrollo de sistema a medida,2021-02-12,2021-02-19,3
+SOL-1273,Desarrollo de sistema a medida,2021-09-09,2021-09-23,3
+SOL-1274,Desarrollo de sistema a medida,2022-08-10,2022-08-17,1
+SOL-1275,Implementación de redes locales,2024-09-08,2024-09-18,4
+SOL-1276,Instalación de cableado estructurado,2020-05-02,2020-05-05,3
+SOL-1277,Consultoría para digitalización,2024-11-28,2024-12-19,1
+SOL-1278,Revisión de contrato marco,2023-07-04,2023-07-28,2
+SOL-1279,Desarrollo de sistema a medida,2024-10-21,2024-10-26,3
+SOL-1280,Evaluación de satisfacción del cliente,2023-10-09,2023-11-04,3
+SOL-1281,Evaluación de satisfacción del cliente,2021-05-11,2021-05-31,4
+SOL-1282,Capacitación técnica al personal,2025-01-20,2025-01-25,1
+SOL-1283,Evaluación de satisfacción del cliente,2022-02-16,2022-02-16,2
+SOL-1284,Revisión de contrato marco,2022-02-12,2022-03-12,4
+SOL-1285,Revisión de contrato marco,2023-08-11,2023-09-08,2
+SOL-1286,Revisión de contrato marco,2025-01-25,2025-02-21,5
+SOL-1287,Capacitación técnica al personal,2023-08-12,2023-08-29,3
+SOL-1288,Evaluación de satisfacción del cliente,2023-05-09,2023-05-26,4
+SOL-1289,Auditoría de procesos internos,2020-11-24,2020-12-20,3
+SOL-1290,Mantenimiento de servidores antiguos,2022-06-26,2022-07-19,3
+SOL-1291,Actualización de sistema contable,2025-01-10,2025-02-08,1
+SOL-1292,Consultoría para digitalización,2023-03-05,2023-03-05,1
+SOL-1293,Evaluación de satisfacción del cliente,2023-03-26,2023-04-16,5
+SOL-1294,Revisión de contrato marco,2021-06-21,2021-07-11,3
+SOL-1295,Desarrollo de sistema a medida,2020-06-14,2020-07-04,1
+SOL-1296,Consultoría para digitalización,2022-08-08,2022-08-29,2
+SOL-1297,Actualización de sistema contable,2020-10-13,2020-10-17,2
+SOL-1298,Mantenimiento de servidores antiguos,2020-03-03,2020-03-24,5
+SOL-1299,Desarrollo de sistema a medida,2020-06-24,2020-07-22,3
+SOL-1300,Capacitación técnica al personal,2021-04-22,2021-05-09,1
+SOL-1301,Evaluación de satisfacción del cliente,2024-02-17,2024-03-12,3
+SOL-1302,Auditoría de procesos internos,2024-09-12,2024-09-29,3
+SOL-1303,Instalación de cableado estructurado,2022-10-18,2022-10-22,1
+SOL-1304,Consultoría para digitalización,2021-05-10,2021-06-05,3
+SOL-1305,Actualización de sistema contable,2020-04-30,2020-05-14,2
+SOL-1306,Implementación de redes locales,2021-09-11,2021-09-15,3
+SOL-1307,Implementación de redes locales,2020-04-02,2020-04-07,1
+SOL-1308,Revisión de contrato marco,2023-10-11,2023-10-29,2
+SOL-1309,Actualización de sistema contable,2021-06-11,2021-06-27,1
+SOL-1310,Desarrollo de sistema a medida,2022-11-08,2022-11-13,2
+SOL-1311,Mantenimiento de servidores antiguos,2021-05-25,2021-06-23,4
+SOL-1312,Mantenimiento de servidores antiguos,2021-11-24,2021-12-03,3
+SOL-1313,Implementación de redes locales,2022-02-19,2022-03-18,3
+SOL-1314,Capacitación técnica al personal,2023-09-02,2023-09-28,4
+SOL-1315,Implementación de redes locales,2020-11-02,2020-11-19,1
+SOL-1316,Evaluación de satisfacción del cliente,2023-05-03,2023-05-16,4
+SOL-1317,Actualización de sistema contable,2023-10-28,2023-11-19,1
+SOL-1318,Desarrollo de sistema a medida,2025-03-25,2025-03-30,4
+SOL-1319,Actualización de sistema contable,2021-02-04,2021-02-26,4
+SOL-1320,Evaluación de satisfacción del cliente,2020-07-11,2020-07-15,2
+SOL-1321,Actualización de sistema contable,2020-11-04,2020-11-29,4
+SOL-1322,Implementación de redes locales,2021-06-01,2021-06-10,2
+SOL-1323,Actualización de sistema contable,2020-02-29,2020-03-21,1
+SOL-1324,Auditoría de procesos internos,2020-09-12,2020-09-25,4
+SOL-1325,Capacitación técnica al personal,2024-12-19,2025-01-13,4
+SOL-1326,Mantenimiento de servidores antiguos,2020-03-02,2020-03-27,1
+SOL-1327,Actualización de sistema contable,2022-03-16,2022-03-21,2
+SOL-1328,Evaluación de satisfacción del cliente,2023-01-24,2023-02-16,3
+SOL-1329,Desarrollo de sistema a medida,2021-05-04,2021-05-31,3
+SOL-1330,Capacitación técnica al personal,2020-01-25,2020-02-02,5
+SOL-1331,Consultoría para digitalización,2021-10-05,2021-10-20,1
+SOL-1332,Consultoría para digitalización,2022-07-02,2022-07-07,1
+SOL-1333,Implementación de redes locales,2022-12-25,2023-01-18,2
+SOL-1334,Evaluación de satisfacción del cliente,2022-03-31,2022-04-19,2
+SOL-1335,Implementación de redes locales,2022-09-19,2022-09-19,2
+SOL-1336,Evaluación de satisfacción del cliente,2022-08-05,2022-08-29,4
+SOL-1337,Actualización de sistema contable,2025-04-07,2025-04-19,5
+SOL-1338,Mantenimiento de servidores antiguos,2020-03-07,2020-03-15,5
+SOL-1339,Evaluación de satisfacción del cliente,2022-01-01,2022-01-02,5
+SOL-1340,Consultoría para digitalización,2024-09-08,2024-10-06,5
+SOL-1341,Auditoría de procesos internos,2021-12-01,2021-12-18,2
+SOL-1342,Implementación de redes locales,2025-02-28,2025-03-26,3
+SOL-1343,Capacitación técnica al personal,2024-02-09,2024-02-26,4
+SOL-1344,Evaluación de satisfacción del cliente,2023-07-30,2023-08-10,1
+SOL-1345,Evaluación de satisfacción del cliente,2024-12-28,2025-01-15,3
+SOL-1346,Evaluación de satisfacción del cliente,2021-12-18,2022-01-12,3
+SOL-1347,Instalación de cableado estructurado,2020-02-21,2020-02-24,3
+SOL-1348,Mantenimiento de servidores antiguos,2020-09-08,2020-09-17,3
+SOL-1349,Revisión de contrato marco,2022-12-13,2022-12-16,2
+SOL-1350,Implementación de redes locales,2023-09-30,2023-10-28,5
+SOL-1351,Auditoría de procesos internos,2020-07-25,2020-08-21,2
+SOL-1352,Capacitación técnica al personal,2020-01-09,2020-01-18,3
+SOL-1353,Mantenimiento de servidores antiguos,2020-01-31,2020-02-10,2
+SOL-1354,Desarrollo de sistema a medida,2023-10-29,2023-11-22,3
+SOL-1355,Evaluación de satisfacción del cliente,2023-07-13,2023-08-03,3
+SOL-1356,Capacitación técnica al personal,2021-12-03,2021-12-20,2
+SOL-1357,Consultoría para digitalización,2021-11-27,2021-12-16,4
+SOL-1358,Mantenimiento de servidores antiguos,2021-03-18,2021-04-01,3
+SOL-1359,Implementación de redes locales,2024-11-30,2024-12-05,1
+SOL-1360,Revisión de contrato marco,2022-08-30,2022-09-10,2
+SOL-1361,Capacitación técnica al personal,2023-07-21,2023-07-25,4
+SOL-1362,Instalación de cableado estructurado,2023-06-28,2023-07-26,3
+SOL-1363,Capacitación técnica al personal,2023-02-06,2023-03-06,1
+SOL-1364,Desarrollo de sistema a medida,2021-01-30,2021-02-03,5
+SOL-1365,Consultoría para digitalización,2025-01-18,2025-01-29,4
+SOL-1366,Desarrollo de sistema a medida,2021-12-16,2021-12-18,4
+SOL-1367,Instalación de cableado estructurado,2023-06-25,2023-07-14,4
+SOL-1368,Instalación de cableado estructurado,2022-11-18,2022-12-10,3
+SOL-1369,Evaluación de satisfacción del cliente,2024-12-24,2025-01-23,2
+SOL-1370,Mantenimiento de servidores antiguos,2023-07-05,2023-08-02,2
+SOL-1371,Desarrollo de sistema a medida,2024-01-26,2024-02-17,5
+SOL-1372,Capacitación técnica al personal,2023-04-29,2023-05-06,3
+SOL-1373,Mantenimiento de servidores antiguos,2024-04-29,2024-05-09,4
+SOL-1374,Auditoría de procesos internos,2020-12-11,2021-01-07,3
+SOL-1375,Mantenimiento de servidores antiguos,2024-03-03,2024-03-21,3
+SOL-1376,Mantenimiento de servidores antiguos,2021-06-01,2021-06-23,2
+SOL-1377,Auditoría de procesos internos,2023-02-05,2023-02-25,5
+SOL-1378,Actualización de sistema contable,2024-06-05,2024-06-09,2
+SOL-1379,Revisión de contrato marco,2024-05-31,2024-06-30,2
+SOL-1380,Implementación de redes locales,2020-03-27,2020-04-22,1
+SOL-1381,Implementación de redes locales,2023-06-20,2023-07-12,5
+SOL-1382,Revisión de contrato marco,2020-09-09,2020-09-12,4
+SOL-1383,Evaluación de satisfacción del cliente,2024-07-08,2024-07-17,1
+SOL-1384,Actualización de sistema contable,2022-06-26,2022-07-19,1
+SOL-1385,Desarrollo de sistema a medida,2024-07-07,2024-07-19,4
+SOL-1386,Auditoría de procesos internos,2024-09-18,2024-10-16,1
+SOL-1387,Auditoría de procesos internos,2024-11-06,2024-11-18,1
+SOL-1388,Instalación de cableado estructurado,2020-12-01,2020-12-20,3
+SOL-1389,Desarrollo de sistema a medida,2022-09-11,2022-09-24,1
+SOL-1390,Actualización de sistema contable,2023-11-22,2023-12-10,4
+SOL-1391,Capacitación técnica al personal,2020-01-05,2020-01-18,3
+SOL-1392,Evaluación de satisfacción del cliente,2021-05-02,2021-05-21,1
+SOL-1393,Capacitación técnica al personal,2023-07-25,2023-08-11,4
+SOL-1394,Evaluación de satisfacción del cliente,2022-04-15,2022-05-09,5
+SOL-1395,Capacitación técnica al personal,2023-11-11,2023-12-01,4
+SOL-1396,Auditoría de procesos internos,2024-08-12,2024-09-03,2
+SOL-1397,Actualización de sistema contable,2021-02-07,2021-02-21,5
+SOL-1398,Actualización de sistema contable,2023-09-13,2023-09-29,4
+SOL-1399,Mantenimiento de servidores antiguos,2025-02-16,2025-02-18,3
+SOL-1400,Implementación de redes locales,2020-09-22,2020-10-05,2
+SOL-1401,Desarrollo de sistema a medida,2021-08-03,2021-08-31,2
+SOL-1402,Actualización de sistema contable,2023-04-09,2023-04-18,3
+SOL-1403,Consultoría para digitalización,2021-10-14,2021-10-17,3
+SOL-1404,Capacitación técnica al personal,2022-05-28,2022-06-03,3
+SOL-1405,Instalación de cableado estructurado,2023-06-22,2023-06-26,5
+SOL-1406,Implementación de redes locales,2024-11-10,2024-11-28,5
+SOL-1407,Implementación de redes locales,2024-07-14,2024-08-09,5
+SOL-1408,Desarrollo de sistema a medida,2023-07-29,2023-08-20,5
+SOL-1409,Evaluación de satisfacción del cliente,2021-09-21,2021-10-01,3
+SOL-1410,Implementación de redes locales,2024-11-03,2024-12-03,4
+SOL-1411,Capacitación técnica al personal,2021-07-12,2021-08-06,3
+SOL-1412,Revisión de contrato marco,2023-09-22,2023-09-29,2
+SOL-1413,Instalación de cableado estructurado,2024-02-11,2024-02-28,5
+SOL-1414,Desarrollo de sistema a medida,2024-05-01,2024-05-22,2
+SOL-1415,Evaluación de satisfacción del cliente,2022-02-22,2022-03-23,3
+SOL-1416,Evaluación de satisfacción del cliente,2021-12-20,2021-12-20,3
+SOL-1417,Evaluación de satisfacción del cliente,2020-07-04,2020-07-24,1
+SOL-1418,Evaluación de satisfacción del cliente,2023-10-31,2023-11-30,2
+SOL-1419,Mantenimiento de servidores antiguos,2021-11-27,2021-12-08,4
+SOL-1420,Capacitación técnica al personal,2020-12-23,2021-01-14,5
+SOL-1421,Implementación de redes locales,2022-01-18,2022-02-08,3
+SOL-1422,Mantenimiento de servidores antiguos,2025-03-15,2025-04-05,4
+SOL-1423,Auditoría de procesos internos,2025-04-20,2025-04-27,2
+SOL-1424,Capacitación técnica al personal,2023-08-01,2023-08-31,5
+SOL-1425,Actualización de sistema contable,2022-01-26,2022-02-02,5
+SOL-1426,Revisión de contrato marco,2024-03-20,2024-03-21,1
+SOL-1427,Mantenimiento de servidores antiguos,2020-11-17,2020-11-28,5
+SOL-1428,Consultoría para digitalización,2024-03-11,2024-03-28,3
+SOL-1429,Capacitación técnica al personal,2020-06-11,2020-06-30,2
+SOL-1430,Revisión de contrato marco,2021-07-01,2021-07-19,3
+SOL-1431,Capacitación técnica al personal,2023-09-05,2023-09-30,3
+SOL-1432,Revisión de contrato marco,2022-07-11,2022-08-08,5
+SOL-1433,Implementación de redes locales,2024-12-08,2025-01-02,5
+SOL-1434,Revisión de contrato marco,2021-07-19,2021-08-11,3
+SOL-1435,Desarrollo de sistema a medida,2021-01-11,2021-01-18,3
+SOL-1436,Actualización de sistema contable,2023-11-24,2023-12-01,2
+SOL-1437,Auditoría de procesos internos,2023-12-01,2023-12-01,5
+SOL-1438,Auditoría de procesos internos,2022-04-18,2022-05-04,1
+SOL-1439,Actualización de sistema contable,2020-03-11,2020-04-08,5
+SOL-1440,Revisión de contrato marco,2025-03-06,2025-03-19,5
+SOL-1441,Actualización de sistema contable,2024-02-28,2024-03-15,5
+SOL-1442,Implementación de redes locales,2021-01-16,2021-01-28,1
+SOL-1443,Evaluación de satisfacción del cliente,2022-02-24,2022-03-08,3
+SOL-1444,Mantenimiento de servidores antiguos,2020-03-28,2020-04-27,4
+SOL-1445,Evaluación de satisfacción del cliente,2022-09-28,2022-10-10,4
+SOL-1446,Implementación de redes locales,2024-01-31,2024-02-24,2
+SOL-1447,Implementación de redes locales,2024-04-14,2024-04-18,2
+SOL-1448,Capacitación técnica al personal,2024-12-15,2025-01-12,1
+SOL-1449,Instalación de cableado estructurado,2024-07-15,2024-08-08,5
+SOL-1450,Capacitación técnica al personal,2020-03-08,2020-03-09,4
+SOL-1451,Consultoría para digitalización,2022-07-24,2022-08-19,5
+SOL-1452,Actualización de sistema contable,2025-01-20,2025-02-14,3
+SOL-1453,Revisión de contrato marco,2024-12-22,2025-01-05,1
+SOL-1454,Implementación de redes locales,2023-05-08,2023-05-17,2
+SOL-1455,Revisión de contrato marco,2021-10-21,2021-10-25,1
+SOL-1456,Consultoría para digitalización,2021-01-08,2021-01-30,4
+SOL-1457,Mantenimiento de servidores antiguos,2023-10-09,2023-11-03,5
+SOL-1458,Desarrollo de sistema a medida,2023-01-20,2023-02-01,4
+SOL-1459,Actualización de sistema contable,2020-01-30,2020-02-16,3
+SOL-1460,Revisión de contrato marco,2020-05-27,2020-05-28,3
+SOL-1461,Implementación de redes locales,2021-10-30,2021-11-05,2
+SOL-1462,Revisión de contrato marco,2021-10-16,2021-11-03,4
+SOL-1463,Capacitación técnica al personal,2021-04-05,2021-04-16,3
+SOL-1464,Capacitación técnica al personal,2022-02-01,2022-02-17,4
+SOL-1465,Capacitación técnica al personal,2022-09-27,2022-10-03,4
+SOL-1466,Actualización de sistema contable,2023-12-05,2023-12-14,2
+SOL-1467,Consultoría para digitalización,2023-04-27,2023-05-24,5
+SOL-1468,Mantenimiento de servidores antiguos,2023-05-11,2023-05-30,5
+SOL-1469,Mantenimiento de servidores antiguos,2021-01-02,2021-01-12,3
+SOL-1470,Instalación de cableado estructurado,2024-12-12,2024-12-18,3
+SOL-1471,Revisión de contrato marco,2023-04-28,2023-05-06,2
+SOL-1472,Auditoría de procesos internos,2024-08-25,2024-09-22,4
+SOL-1473,Capacitación técnica al personal,2023-08-28,2023-09-02,3
+SOL-1474,Instalación de cableado estructurado,2024-12-29,2024-12-29,4
+SOL-1475,Capacitación técnica al personal,2021-11-12,2021-11-14,5
+SOL-1476,Evaluación de satisfacción del cliente,2021-04-02,2021-04-20,5
+SOL-1477,Consultoría para digitalización,2022-11-04,2022-11-08,5
+SOL-1478,Instalación de cableado estructurado,2020-03-20,2020-03-23,1
+SOL-1479,Desarrollo de sistema a medida,2020-09-03,2020-09-21,5
+SOL-1480,Capacitación técnica al personal,2024-11-02,2024-11-18,2
+SOL-1481,Consultoría para digitalización,2021-09-07,2021-09-21,5
+SOL-1482,Mantenimiento de servidores antiguos,2024-03-30,2024-04-20,5
+SOL-1483,Instalación de cableado estructurado,2022-03-05,2022-03-23,2
+SOL-1484,Actualización de sistema contable,2022-06-30,2022-07-25,2
+SOL-1485,Desarrollo de sistema a medida,2024-02-23,2024-02-23,4
+SOL-1486,Desarrollo de sistema a medida,2024-12-18,2024-12-21,4
+SOL-1487,Consultoría para digitalización,2025-01-12,2025-01-29,4
+SOL-1488,Actualización de sistema contable,2020-10-17,2020-11-10,4
+SOL-1489,Desarrollo de sistema a medida,2024-08-01,2024-08-25,3
+SOL-1490,Desarrollo de sistema a medida,2021-05-02,2021-05-24,5
+SOL-1491,Revisión de contrato marco,2021-12-19,2022-01-16,5
+SOL-1492,Desarrollo de sistema a medida,2021-03-24,2021-04-10,1
+SOL-1493,Consultoría para digitalización,2022-01-23,2022-01-23,5
+SOL-1494,Mantenimiento de servidores antiguos,2024-04-17,2024-04-26,5
+SOL-1495,Capacitación técnica al personal,2020-11-12,2020-11-24,1
+SOL-1496,Actualización de sistema contable,2021-04-20,2021-05-16,4
+SOL-1497,Capacitación técnica al personal,2022-01-05,2022-01-29,5
+SOL-1498,Capacitación técnica al personal,2024-05-24,2024-06-09,5
+SOL-1499,Actualización de sistema contable,2025-01-07,2025-01-11,5
+SOL-1500,Consultoría para digitalización,2020-08-05,2020-08-22,3
+SOL-1501,Auditoría de procesos internos,2023-10-02,2023-10-13,4
+SOL-1502,Implementación de redes locales,2021-02-16,2021-02-21,3
+SOL-1503,Consultoría para digitalización,2022-01-16,2022-02-13,2
+SOL-1504,Desarrollo de sistema a medida,2020-02-07,2020-02-25,5
+SOL-1505,Instalación de cableado estructurado,2022-12-16,2022-12-22,2
+SOL-1506,Mantenimiento de servidores antiguos,2021-06-09,2021-07-05,1
+SOL-1507,Revisión de contrato marco,2020-06-07,2020-06-16,4
+SOL-1508,Auditoría de procesos internos,2022-05-01,2022-05-24,4
+SOL-1509,Auditoría de procesos internos,2023-07-12,2023-08-02,1
+SOL-1510,Actualización de sistema contable,2020-07-10,2020-08-03,5
+SOL-1511,Mantenimiento de servidores antiguos,2025-01-30,2025-03-01,1
+SOL-1512,Revisión de contrato marco,2022-06-05,2022-06-19,1
+SOL-1513,Actualización de sistema contable,2022-05-13,2022-05-25,2
+SOL-1514,Desarrollo de sistema a medida,2022-11-04,2022-11-17,4
+SOL-1515,Mantenimiento de servidores antiguos,2020-11-21,2020-11-26,4
+SOL-1516,Desarrollo de sistema a medida,2020-06-30,2020-07-23,2
+SOL-1517,Evaluación de satisfacción del cliente,2020-05-29,2020-05-29,3
+SOL-1518,Evaluación de satisfacción del cliente,2021-08-21,2021-09-13,1
+SOL-1519,Evaluación de satisfacción del cliente,2024-07-15,2024-08-14,3
+SOL-1520,Auditoría de procesos internos,2024-05-30,2024-06-04,1
+SOL-1521,Mantenimiento de servidores antiguos,2022-11-16,2022-11-22,3
+SOL-1522,Mantenimiento de servidores antiguos,2022-12-14,2022-12-26,3
+SOL-1523,Desarrollo de sistema a medida,2021-08-28,2021-09-25,2
+SOL-1524,Evaluación de satisfacción del cliente,2020-11-09,2020-11-23,2
+SOL-1525,Auditoría de procesos internos,2021-03-04,2021-03-19,4
+SOL-1526,Capacitación técnica al personal,2024-01-22,2024-02-02,1
+SOL-1527,Desarrollo de sistema a medida,2020-08-14,2020-08-17,1
+SOL-1528,Implementación de redes locales,2020-05-01,2020-05-05,5
+SOL-1529,Capacitación técnica al personal,2023-07-09,2023-08-08,5
+SOL-1530,Evaluación de satisfacción del cliente,2020-08-09,2020-08-14,5
+SOL-1531,Evaluación de satisfacción del cliente,2020-06-27,2020-07-15,1
+SOL-1532,Revisión de contrato marco,2024-02-26,2024-03-12,4
+SOL-1533,Instalación de cableado estructurado,2021-09-03,2021-09-25,3
+SOL-1534,Actualización de sistema contable,2023-11-21,2023-12-12,5
+SOL-1535,Mantenimiento de servidores antiguos,2022-12-24,2023-01-19,4
+SOL-1536,Capacitación técnica al personal,2024-01-26,2024-02-02,4
+SOL-1537,Capacitación técnica al personal,2022-03-08,2022-03-10,3
+SOL-1538,Revisión de contrato marco,2022-11-12,2022-12-08,2
+SOL-1539,Actualización de sistema contable,2023-07-24,2023-08-09,4
+SOL-1540,Actualización de sistema contable,2024-02-11,2024-03-09,4
+SOL-1541,Instalación de cableado estructurado,2023-09-30,2023-10-19,2
+SOL-1542,Auditoría de procesos internos,2024-11-29,2024-12-16,4
+SOL-1543,Revisión de contrato marco,2022-05-30,2022-06-01,5
+SOL-1544,Auditoría de procesos internos,2024-03-30,2024-04-06,5
+SOL-1545,Implementación de redes locales,2020-04-13,2020-04-13,4
+SOL-1546,Desarrollo de sistema a medida,2022-12-01,2022-12-19,5
+SOL-1547,Desarrollo de sistema a medida,2020-08-31,2020-09-25,5
+SOL-1548,Consultoría para digitalización,2021-11-06,2021-12-06,3
+SOL-1549,Capacitación técnica al personal,2023-07-25,2023-08-24,4
+SOL-1550,Revisión de contrato marco,2020-05-15,2020-05-22,4
+SOL-1551,Desarrollo de sistema a medida,2024-07-12,2024-08-03,3
+SOL-1552,Implementación de redes locales,2020-06-19,2020-06-25,3
+SOL-1553,Actualización de sistema contable,2023-03-27,2023-04-15,2
+SOL-1554,Instalación de cableado estructurado,2022-06-30,2022-07-07,5
+SOL-1555,Evaluación de satisfacción del cliente,2022-01-19,2022-01-22,5
+SOL-1556,Instalación de cableado estructurado,2024-12-22,2024-12-22,3
+SOL-1557,Desarrollo de sistema a medida,2024-11-04,2024-11-13,2
+SOL-1558,Consultoría para digitalización,2021-12-27,2022-01-20,5
+SOL-1559,Consultoría para digitalización,2025-01-25,2025-02-16,4
+SOL-1560,Auditoría de procesos internos,2021-06-26,2021-07-22,4
+SOL-1561,Revisión de contrato marco,2023-06-30,2023-07-14,5
+SOL-1562,Revisión de contrato marco,2020-03-31,2020-04-10,4
+SOL-1563,Capacitación técnica al personal,2024-08-20,2024-08-25,2
+SOL-1564,Desarrollo de sistema a medida,2022-12-20,2023-01-02,2
+SOL-1565,Capacitación técnica al personal,2023-03-08,2023-03-30,3
+SOL-1566,Consultoría para digitalización,2023-08-25,2023-09-23,2
+SOL-1567,Implementación de redes locales,2020-09-23,2020-09-27,4
+SOL-1568,Capacitación técnica al personal,2025-01-16,2025-02-11,4
+SOL-1569,Capacitación técnica al personal,2021-01-13,2021-01-31,2
+SOL-1570,Actualización de sistema contable,2020-05-21,2020-05-25,4
+SOL-1571,Consultoría para digitalización,2022-03-28,2022-04-09,4
+SOL-1572,Implementación de redes locales,2025-01-23,2025-01-25,1
+SOL-1573,Desarrollo de sistema a medida,2024-09-28,2024-10-23,3
+SOL-1574,Evaluación de satisfacción del cliente,2022-10-23,2022-11-02,3
+SOL-1575,Auditoría de procesos internos,2020-01-31,2020-02-16,5
+SOL-1576,Consultoría para digitalización,2023-06-10,2023-06-26,2
+SOL-1577,Mantenimiento de servidores antiguos,2020-06-13,2020-06-16,1
+SOL-1578,Actualización de sistema contable,2024-07-24,2024-08-05,1
+SOL-1579,Auditoría de procesos internos,2023-01-01,2023-01-15,5
+SOL-1580,Consultoría para digitalización,2024-12-02,2024-12-06,3
+SOL-1581,Auditoría de procesos internos,2022-08-11,2022-08-12,1
+SOL-1582,Implementación de redes locales,2022-08-17,2022-09-06,1
+SOL-1583,Revisión de contrato marco,2020-08-31,2020-09-21,3
+SOL-1584,Implementación de redes locales,2021-03-27,2021-04-03,1
+SOL-1585,Evaluación de satisfacción del cliente,2023-08-25,2023-09-17,4
+SOL-1586,Actualización de sistema contable,2024-11-06,2024-11-15,5
+SOL-1587,Desarrollo de sistema a medida,2024-05-16,2024-06-07,1
+SOL-1588,Implementación de redes locales,2020-11-15,2020-12-13,2
+SOL-1589,Mantenimiento de servidores antiguos,2021-12-22,2021-12-27,2
+SOL-1590,Revisión de contrato marco,2021-06-14,2021-07-08,5
+SOL-1591,Instalación de cableado estructurado,2021-04-19,2021-05-11,3
+SOL-1592,Implementación de redes locales,2025-01-13,2025-01-27,2
+SOL-1593,Actualización de sistema contable,2022-11-28,2022-12-06,2
+SOL-1594,Revisión de contrato marco,2024-06-20,2024-06-22,5
+SOL-1595,Implementación de redes locales,2020-07-16,2020-08-08,2
+SOL-1596,Mantenimiento de servidores antiguos,2025-02-10,2025-02-27,1
+SOL-1597,Mantenimiento de servidores antiguos,2020-02-02,2020-02-13,2
+SOL-1598,Implementación de redes locales,2023-01-19,2023-01-22,4
+SOL-1599,Instalación de cableado estructurado,2024-07-05,2024-07-06,4
+SOL-1600,Implementación de redes locales,2024-05-23,2024-05-29,5
+SOL-1601,Actualización de sistema contable,2022-05-14,2022-05-18,5
+SOL-1602,Evaluación de satisfacción del cliente,2022-04-07,2022-05-07,3
+SOL-1603,Revisión de contrato marco,2024-01-23,2024-02-06,4
+SOL-1604,Instalación de cableado estructurado,2024-01-22,2024-01-27,1
+SOL-1605,Desarrollo de sistema a medida,2023-06-03,2023-06-25,3
+SOL-1606,Implementación de redes locales,2023-12-24,2024-01-22,1
+SOL-1607,Capacitación técnica al personal,2024-08-11,2024-09-02,5
+SOL-1608,Instalación de cableado estructurado,2022-08-20,2022-09-14,5
+SOL-1609,Desarrollo de sistema a medida,2024-02-18,2024-03-13,5
+SOL-1610,Auditoría de procesos internos,2021-12-13,2022-01-12,4
+SOL-1611,Evaluación de satisfacción del cliente,2020-06-04,2020-06-22,5
+SOL-1612,Instalación de cableado estructurado,2024-09-25,2024-10-08,1
+SOL-1613,Implementación de redes locales,2020-08-29,2020-09-21,3
+SOL-1614,Desarrollo de sistema a medida,2022-01-01,2022-01-26,3
+SOL-1615,Desarrollo de sistema a medida,2021-03-23,2021-03-29,1
+SOL-1616,Instalación de cableado estructurado,2021-09-02,2021-09-15,3
+SOL-1617,Implementación de redes locales,2023-07-06,2023-07-10,3
+SOL-1618,Revisión de contrato marco,2022-09-28,2022-10-15,5
+SOL-1619,Evaluación de satisfacción del cliente,2024-06-22,2024-07-08,3
+SOL-1620,Implementación de redes locales,2023-09-23,2023-10-07,4
+SOL-1621,Mantenimiento de servidores antiguos,2024-09-15,2024-10-03,4
+SOL-1622,Desarrollo de sistema a medida,2021-11-29,2021-12-10,2
+SOL-1623,Auditoría de procesos internos,2023-03-01,2023-03-31,2
+SOL-1624,Auditoría de procesos internos,2021-06-03,2021-06-25,2
+SOL-1625,Implementación de redes locales,2021-05-01,2021-05-27,1
+SOL-1626,Consultoría para digitalización,2024-07-02,2024-07-16,1
+SOL-1627,Auditoría de procesos internos,2020-12-24,2021-01-13,2
+SOL-1628,Implementación de redes locales,2025-01-15,2025-02-13,4
+SOL-1629,Consultoría para digitalización,2024-04-24,2024-05-09,5
+SOL-1630,Instalación de cableado estructurado,2023-06-30,2023-07-27,4
+SOL-1631,Instalación de cableado estructurado,2020-11-26,2020-12-13,4
+SOL-1632,Revisión de contrato marco,2020-06-16,2020-06-30,1
+SOL-1633,Desarrollo de sistema a medida,2025-01-03,2025-01-27,4
+SOL-1634,Auditoría de procesos internos,2022-03-03,2022-03-16,1
+SOL-1635,Implementación de redes locales,2023-10-30,2023-11-10,3
+SOL-1636,Desarrollo de sistema a medida,2024-09-16,2024-09-20,4
+SOL-1637,Revisión de contrato marco,2021-12-17,2022-01-02,5
+SOL-1638,Consultoría para digitalización,2024-04-26,2024-05-17,5
+SOL-1639,Actualización de sistema contable,2022-07-12,2022-08-07,4
+SOL-1640,Consultoría para digitalización,2022-02-03,2022-02-12,3
+SOL-1641,Instalación de cableado estructurado,2023-04-07,2023-05-04,3
+SOL-1642,Revisión de contrato marco,2024-07-28,2024-08-12,5
+SOL-1643,Auditoría de procesos internos,2021-01-14,2021-02-11,5
+SOL-1644,Implementación de redes locales,2021-08-28,2021-09-24,2
+SOL-1645,Implementación de redes locales,2024-04-21,2024-05-11,1
+SOL-1646,Implementación de redes locales,2025-02-08,2025-02-18,3
+SOL-1647,Mantenimiento de servidores antiguos,2021-05-11,2021-05-30,2
+SOL-1648,Implementación de redes locales,2020-12-24,2021-01-14,2
+SOL-1649,Actualización de sistema contable,2020-06-28,2020-07-15,4
+SOL-1650,Consultoría para digitalización,2024-04-11,2024-04-11,5
+SOL-1651,Instalación de cableado estructurado,2020-11-09,2020-11-15,1
+SOL-1652,Desarrollo de sistema a medida,2021-09-28,2021-10-06,2
+SOL-1653,Mantenimiento de servidores antiguos,2022-02-05,2022-03-03,4
+SOL-1654,Evaluación de satisfacción del cliente,2020-05-10,2020-05-24,3
+SOL-1655,Consultoría para digitalización,2022-06-05,2022-06-27,1
+SOL-1656,Revisión de contrato marco,2020-02-24,2020-02-26,2
+SOL-1657,Auditoría de procesos internos,2021-01-28,2021-02-02,3
+SOL-1658,Implementación de redes locales,2023-12-19,2024-01-03,3
+SOL-1659,Actualización de sistema contable,2023-10-15,2023-10-29,1
+SOL-1660,Revisión de contrato marco,2021-07-18,2021-08-15,1
+SOL-1661,Consultoría para digitalización,2022-11-17,2022-12-12,5
+SOL-1662,Implementación de redes locales,2024-03-27,2024-04-22,1
+SOL-1663,Evaluación de satisfacción del cliente,2020-04-30,2020-05-06,5
+SOL-1664,Desarrollo de sistema a medida,2024-04-13,2024-05-13,5
+SOL-1665,Actualización de sistema contable,2021-06-20,2021-07-02,2
+SOL-1666,Evaluación de satisfacción del cliente,2022-01-22,2022-02-14,5
+SOL-1667,Capacitación técnica al personal,2024-02-25,2024-03-06,3
+SOL-1668,Auditoría de procesos internos,2021-01-28,2021-02-01,3
+SOL-1669,Revisión de contrato marco,2025-03-24,2025-04-13,3
+SOL-1670,Revisión de contrato marco,2022-09-25,2022-09-28,5
+SOL-1671,Auditoría de procesos internos,2024-05-01,2024-05-24,4
+SOL-1672,Capacitación técnica al personal,2023-01-11,2023-01-13,1
+SOL-1673,Implementación de redes locales,2020-07-08,2020-07-10,1
+SOL-1674,Implementación de redes locales,2023-08-09,2023-08-18,4
+SOL-1675,Desarrollo de sistema a medida,2024-01-09,2024-01-23,1
+SOL-1676,Mantenimiento de servidores antiguos,2021-11-23,2021-12-18,3
+SOL-1677,Capacitación técnica al personal,2022-09-19,2022-10-11,3
+SOL-1678,Actualización de sistema contable,2024-10-17,2024-11-08,3
+SOL-1679,Auditoría de procesos internos,2021-06-29,2021-07-10,5
+SOL-1680,Evaluación de satisfacción del cliente,2020-12-11,2021-01-08,3
+SOL-1681,Mantenimiento de servidores antiguos,2023-11-28,2023-12-24,2
+SOL-1682,Mantenimiento de servidores antiguos,2024-05-29,2024-06-10,4
+SOL-1683,Mantenimiento de servidores antiguos,2021-12-01,2021-12-02,1
+SOL-1684,Implementación de redes locales,2024-08-15,2024-08-19,2
+SOL-1685,Evaluación de satisfacción del cliente,2023-12-02,2023-12-07,2
+SOL-1686,Evaluación de satisfacción del cliente,2024-02-11,2024-03-07,1
+SOL-1687,Actualización de sistema contable,2023-02-14,2023-03-14,1
+SOL-1688,Auditoría de procesos internos,2023-03-11,2023-03-14,5
+SOL-1689,Actualización de sistema contable,2022-02-28,2022-03-22,3
+SOL-1690,Auditoría de procesos internos,2022-12-28,2023-01-13,3
+SOL-1691,Desarrollo de sistema a medida,2023-03-04,2023-03-04,1
+SOL-1692,Instalación de cableado estructurado,2023-10-14,2023-10-17,5
+SOL-1693,Implementación de redes locales,2023-08-05,2023-09-04,3
+SOL-1694,Instalación de cableado estructurado,2021-12-31,2021-12-31,4
+SOL-1695,Instalación de cableado estructurado,2025-04-06,2025-04-16,3
+SOL-1696,Capacitación técnica al personal,2024-11-07,2024-11-20,1
+SOL-1697,Mantenimiento de servidores antiguos,2022-06-11,2022-06-13,1
+SOL-1698,Revisión de contrato marco,2023-10-11,2023-10-11,3
+SOL-1699,Evaluación de satisfacción del cliente,2024-03-23,2024-04-08,4
+SOL-1700,Desarrollo de sistema a medida,2023-09-21,2023-09-30,2
+SOL-1701,Instalación de cableado estructurado,2022-12-26,2023-01-01,3
+SOL-1702,Capacitación técnica al personal,2022-11-27,2022-12-22,5
+SOL-1703,Implementación de redes locales,2021-10-13,2021-10-19,2
+SOL-1704,Consultoría para digitalización,2022-07-02,2022-07-06,2
+SOL-1705,Instalación de cableado estructurado,2024-09-09,2024-10-05,1
+SOL-1706,Revisión de contrato marco,2020-09-25,2020-10-24,5
+SOL-1707,Actualización de sistema contable,2020-06-21,2020-07-19,5
+SOL-1708,Instalación de cableado estructurado,2022-03-08,2022-03-19,1
+SOL-1709,Revisión de contrato marco,2021-06-26,2021-06-30,4
+SOL-1710,Auditoría de procesos internos,2020-01-31,2020-02-20,4
+SOL-1711,Instalación de cableado estructurado,2022-04-28,2022-05-06,4
+SOL-1712,Mantenimiento de servidores antiguos,2024-01-28,2024-02-17,5
+SOL-1713,Desarrollo de sistema a medida,2025-03-17,2025-03-19,4
+SOL-1714,Capacitación técnica al personal,2021-04-26,2021-05-10,3
+SOL-1715,Evaluación de satisfacción del cliente,2024-08-15,2024-09-11,5
+SOL-1716,Desarrollo de sistema a medida,2020-06-13,2020-06-29,4
+SOL-1717,Instalación de cableado estructurado,2021-11-12,2021-12-12,1
+SOL-1718,Evaluación de satisfacción del cliente,2022-03-07,2022-03-29,5
+SOL-1719,Implementación de redes locales,2021-08-21,2021-08-22,1
+SOL-1720,Capacitación técnica al personal,2021-04-24,2021-05-19,3
+SOL-1721,Instalación de cableado estructurado,2024-09-21,2024-10-18,5
+SOL-1722,Instalación de cableado estructurado,2021-03-06,2021-03-12,4
+SOL-1723,Actualización de sistema contable,2024-12-06,2024-12-17,3
+SOL-1724,Capacitación técnica al personal,2021-07-26,2021-07-30,1
+SOL-1725,Consultoría para digitalización,2021-07-31,2021-08-23,4
+SOL-1726,Revisión de contrato marco,2022-04-13,2022-05-13,5
+SOL-1727,Implementación de redes locales,2021-06-26,2021-06-29,1
+SOL-1728,Revisión de contrato marco,2021-12-14,2022-01-05,5
+SOL-1729,Instalación de cableado estructurado,2024-06-16,2024-07-05,1
+SOL-1730,Mantenimiento de servidores antiguos,2021-11-15,2021-11-26,5
+SOL-1731,Implementación de redes locales,2024-11-29,2024-12-22,1
+SOL-1732,Capacitación técnica al personal,2020-09-18,2020-10-18,2
+SOL-1733,Auditoría de procesos internos,2023-09-14,2023-09-23,1
+SOL-1734,Evaluación de satisfacción del cliente,2024-05-12,2024-05-25,4
+SOL-1735,Mantenimiento de servidores antiguos,2021-05-19,2021-05-24,4
+SOL-1736,Instalación de cableado estructurado,2020-05-28,2020-06-22,4
+SOL-1737,Evaluación de satisfacción del cliente,2020-09-01,2020-09-18,2
+SOL-1738,Implementación de redes locales,2020-12-27,2020-12-29,4
+SOL-1739,Capacitación técnica al personal,2023-10-18,2023-11-09,1
+SOL-1740,Actualización de sistema contable,2022-09-08,2022-10-07,5
+SOL-1741,Implementación de redes locales,2023-10-09,2023-10-26,2
+SOL-1742,Actualización de sistema contable,2023-03-28,2023-04-05,5
+SOL-1743,Implementación de redes locales,2024-05-14,2024-06-12,1
+SOL-1744,Instalación de cableado estructurado,2022-02-02,2022-02-05,2
+SOL-1745,Evaluación de satisfacción del cliente,2023-01-27,2023-02-06,2
+SOL-1746,Revisión de contrato marco,2020-05-13,2020-06-10,2
+SOL-1747,Implementación de redes locales,2024-05-22,2024-06-12,3
+SOL-1748,Capacitación técnica al personal,2022-01-30,2022-02-06,1
+SOL-1749,Instalación de cableado estructurado,2024-11-16,2024-12-15,5
+SOL-1750,Mantenimiento de servidores antiguos,2023-09-03,2023-09-24,1
+SOL-1751,Mantenimiento de servidores antiguos,2020-10-11,2020-11-01,4
+SOL-1752,Capacitación técnica al personal,2024-05-19,2024-05-20,2
+SOL-1753,Mantenimiento de servidores antiguos,2021-08-18,2021-08-30,1
+SOL-1754,Actualización de sistema contable,2020-02-10,2020-02-15,4
+SOL-1755,Evaluación de satisfacción del cliente,2024-05-06,2024-06-01,4
+SOL-1756,Implementación de redes locales,2025-02-07,2025-02-08,1
+SOL-1757,Instalación de cableado estructurado,2024-06-25,2024-07-05,3
+SOL-1758,Implementación de redes locales,2022-04-27,2022-05-21,5
+SOL-1759,Instalación de cableado estructurado,2023-08-26,2023-08-28,2
+SOL-1760,Auditoría de procesos internos,2023-09-07,2023-09-28,4
+SOL-1761,Mantenimiento de servidores antiguos,2022-04-22,2022-05-09,4
+SOL-1762,Consultoría para digitalización,2024-10-12,2024-10-30,2
+SOL-1763,Consultoría para digitalización,2021-05-11,2021-06-01,4
+SOL-1764,Mantenimiento de servidores antiguos,2020-12-16,2020-12-16,4
+SOL-1765,Implementación de redes locales,2023-12-21,2023-12-21,5
+SOL-1766,Mantenimiento de servidores antiguos,2023-06-26,2023-07-08,5
+SOL-1767,Desarrollo de sistema a medida,2022-07-23,2022-08-02,1
+SOL-1768,Desarrollo de sistema a medida,2024-07-06,2024-07-21,5
+SOL-1769,Consultoría para digitalización,2020-07-19,2020-07-29,2
+SOL-1770,Evaluación de satisfacción del cliente,2025-01-02,2025-01-06,2
+SOL-1771,Capacitación técnica al personal,2022-08-02,2022-08-25,5
+SOL-1772,Instalación de cableado estructurado,2021-06-29,2021-07-07,4
+SOL-1773,Evaluación de satisfacción del cliente,2022-01-23,2022-02-22,2
+SOL-1774,Desarrollo de sistema a medida,2022-09-29,2022-09-29,4
+SOL-1775,Revisión de contrato marco,2023-05-16,2023-06-05,5
+SOL-1776,Mantenimiento de servidores antiguos,2022-07-29,2022-08-19,5
+SOL-1777,Actualización de sistema contable,2022-09-13,2022-10-01,2
+SOL-1778,Mantenimiento de servidores antiguos,2021-12-21,2021-12-21,1
+SOL-1779,Auditoría de procesos internos,2023-04-08,2023-04-28,3
+SOL-1780,Mantenimiento de servidores antiguos,2022-12-05,2022-12-31,4
+SOL-1781,Desarrollo de sistema a medida,2022-09-11,2022-10-11,4
+SOL-1782,Capacitación técnica al personal,2021-10-12,2021-10-21,3
+SOL-1783,Instalación de cableado estructurado,2021-03-31,2021-04-03,4
+SOL-1784,Capacitación técnica al personal,2020-03-04,2020-03-29,2
+SOL-1785,Instalación de cableado estructurado,2025-04-04,2025-04-16,5
+SOL-1786,Evaluación de satisfacción del cliente,2022-07-22,2022-07-29,5
+SOL-1787,Capacitación técnica al personal,2023-01-09,2023-01-26,2
+SOL-1788,Consultoría para digitalización,2024-09-05,2024-09-24,3
+SOL-1789,Auditoría de procesos internos,2023-05-10,2023-06-02,4
+SOL-1790,Evaluación de satisfacción del cliente,2025-01-23,2025-01-25,3
+SOL-1791,Revisión de contrato marco,2021-01-24,2021-02-08,3
+SOL-1792,Mantenimiento de servidores antiguos,2021-02-01,2021-02-23,1
+SOL-1793,Instalación de cableado estructurado,2023-09-30,2023-10-03,5
+SOL-1794,Capacitación técnica al personal,2023-12-28,2023-12-29,3
+SOL-1795,Desarrollo de sistema a medida,2020-05-12,2020-05-16,5
+SOL-1796,Capacitación técnica al personal,2024-06-07,2024-06-24,2
+SOL-1797,Actualización de sistema contable,2021-01-16,2021-02-15,4
+SOL-1798,Implementación de redes locales,2024-06-02,2024-06-30,1
+SOL-1799,Actualización de sistema contable,2021-07-26,2021-08-07,2
+SOL-1800,Mantenimiento de servidores antiguos,2022-12-31,2023-01-24,4
+SOL-1801,Revisión de contrato marco,2022-03-04,2022-03-07,5
+SOL-1802,Revisión de contrato marco,2020-03-06,2020-03-15,1
+SOL-1803,Implementación de redes locales,2024-09-23,2024-10-11,3
+SOL-1804,Implementación de redes locales,2021-07-15,2021-07-22,4
+SOL-1805,Instalación de cableado estructurado,2020-10-05,2020-10-17,3
+SOL-1806,Desarrollo de sistema a medida,2022-10-13,2022-11-11,3
+SOL-1807,Instalación de cableado estructurado,2020-06-15,2020-06-24,1
+SOL-1808,Desarrollo de sistema a medida,2020-01-22,2020-02-06,1
+SOL-1809,Actualización de sistema contable,2021-08-18,2021-09-10,3
+SOL-1810,Actualización de sistema contable,2020-05-08,2020-05-15,5
+SOL-1811,Auditoría de procesos internos,2020-05-04,2020-05-26,1
+SOL-1812,Implementación de redes locales,2024-06-26,2024-06-28,2
+SOL-1813,Desarrollo de sistema a medida,2020-02-26,2020-03-08,1
+SOL-1814,Mantenimiento de servidores antiguos,2020-05-07,2020-05-13,1
+SOL-1815,Actualización de sistema contable,2024-02-19,2024-03-08,3
+SOL-1816,Evaluación de satisfacción del cliente,2023-07-13,2023-07-14,3
+SOL-1817,Mantenimiento de servidores antiguos,2022-06-02,2022-06-26,2
+SOL-1818,Desarrollo de sistema a medida,2020-11-22,2020-12-11,4
+SOL-1819,Auditoría de procesos internos,2023-03-10,2023-04-05,2
+SOL-1820,Consultoría para digitalización,2023-06-23,2023-06-30,2
+SOL-1821,Revisión de contrato marco,2021-05-22,2021-05-30,3
+SOL-1822,Mantenimiento de servidores antiguos,2024-12-14,2024-12-28,5
+SOL-1823,Evaluación de satisfacción del cliente,2024-01-26,2024-02-21,2
+SOL-1824,Capacitación técnica al personal,2020-06-14,2020-06-25,1
+SOL-1825,Auditoría de procesos internos,2021-08-24,2021-09-12,4
+SOL-1826,Instalación de cableado estructurado,2020-04-24,2020-05-20,4
+SOL-1827,Evaluación de satisfacción del cliente,2020-06-06,2020-06-11,1
+SOL-1828,Evaluación de satisfacción del cliente,2021-11-27,2021-12-17,2
+SOL-1829,Actualización de sistema contable,2024-08-24,2024-08-31,5
+SOL-1830,Auditoría de procesos internos,2020-04-12,2020-04-18,3
+SOL-1831,Instalación de cableado estructurado,2020-01-23,2020-02-12,2
+SOL-1832,Consultoría para digitalización,2020-03-23,2020-04-12,5
+SOL-1833,Actualización de sistema contable,2023-10-18,2023-10-23,2
+SOL-1834,Evaluación de satisfacción del cliente,2021-01-18,2021-02-04,4
+SOL-1835,Evaluación de satisfacción del cliente,2020-12-02,2020-12-19,5
+SOL-1836,Revisión de contrato marco,2022-04-12,2022-05-12,3
+SOL-1837,Mantenimiento de servidores antiguos,2021-07-06,2021-07-12,1
+SOL-1838,Actualización de sistema contable,2025-04-13,2025-04-18,1
+SOL-1839,Auditoría de procesos internos,2021-01-13,2021-02-12,5
+SOL-1840,Auditoría de procesos internos,2021-09-22,2021-10-04,5
+SOL-1841,Consultoría para digitalización,2024-02-22,2024-02-27,2
+SOL-1842,Evaluación de satisfacción del cliente,2020-07-25,2020-08-04,2
+SOL-1843,Evaluación de satisfacción del cliente,2024-06-23,2024-07-19,3
+SOL-1844,Revisión de contrato marco,2021-03-20,2021-04-04,1
+SOL-1845,Evaluación de satisfacción del cliente,2024-12-02,2024-12-02,1
+SOL-1846,Consultoría para digitalización,2022-03-23,2022-03-27,5
+SOL-1847,Capacitación técnica al personal,2020-09-21,2020-10-09,2
+SOL-1848,Revisión de contrato marco,2021-01-15,2021-01-20,3
+SOL-1849,Desarrollo de sistema a medida,2022-08-09,2022-08-12,3
+SOL-1850,Actualización de sistema contable,2021-09-17,2021-09-25,4
+SOL-1851,Desarrollo de sistema a medida,2021-10-23,2021-11-01,1
+SOL-1852,Desarrollo de sistema a medida,2024-09-07,2024-09-15,1
+SOL-1853,Actualización de sistema contable,2022-01-10,2022-02-06,5
+SOL-1854,Instalación de cableado estructurado,2024-01-29,2024-02-14,5
+SOL-1855,Capacitación técnica al personal,2023-01-20,2023-01-31,2
+SOL-1856,Capacitación técnica al personal,2021-10-29,2021-11-01,2
+SOL-1857,Instalación de cableado estructurado,2024-02-04,2024-03-02,2
+SOL-1858,Implementación de redes locales,2023-02-23,2023-03-07,5
+SOL-1859,Evaluación de satisfacción del cliente,2020-06-20,2020-07-05,5
+SOL-1860,Implementación de redes locales,2020-10-26,2020-11-17,4
+SOL-1861,Mantenimiento de servidores antiguos,2024-06-16,2024-07-12,3
+SOL-1862,Actualización de sistema contable,2024-10-23,2024-11-03,4
+SOL-1863,Instalación de cableado estructurado,2021-10-06,2021-10-27,4
+SOL-1864,Revisión de contrato marco,2024-05-25,2024-05-30,2
+SOL-1865,Implementación de redes locales,2023-02-10,2023-02-12,1
+SOL-1866,Evaluación de satisfacción del cliente,2020-10-30,2020-11-08,2
+SOL-1867,Auditoría de procesos internos,2022-02-23,2022-03-16,4
+SOL-1868,Instalación de cableado estructurado,2020-10-20,2020-11-17,2
+SOL-1869,Desarrollo de sistema a medida,2024-11-29,2024-12-14,4
+SOL-1870,Mantenimiento de servidores antiguos,2020-01-25,2020-02-07,3
+SOL-1871,Auditoría de procesos internos,2020-07-30,2020-08-09,2
+SOL-1872,Implementación de redes locales,2021-03-18,2021-04-15,5
+SOL-1873,Revisión de contrato marco,2021-10-07,2021-11-04,5
+SOL-1874,Implementación de redes locales,2022-10-14,2022-10-18,3
+SOL-1875,Desarrollo de sistema a medida,2021-05-22,2021-06-15,4
+SOL-1876,Revisión de contrato marco,2024-02-24,2024-03-13,5
+SOL-1877,Mantenimiento de servidores antiguos,2022-10-06,2022-10-08,4
+SOL-1878,Auditoría de procesos internos,2020-07-30,2020-08-13,3
+SOL-1879,Capacitación técnica al personal,2023-03-30,2023-04-26,4
+SOL-1880,Instalación de cableado estructurado,2021-01-25,2021-02-02,3
+SOL-1881,Actualización de sistema contable,2024-03-21,2024-04-16,1
+SOL-1882,Mantenimiento de servidores antiguos,2020-08-27,2020-09-20,4
+SOL-1883,Revisión de contrato marco,2023-09-07,2023-10-02,3
+SOL-1884,Capacitación técnica al personal,2020-11-25,2020-12-01,2
+SOL-1885,Revisión de contrato marco,2021-10-04,2021-11-01,1
+SOL-1886,Consultoría para digitalización,2020-12-12,2020-12-23,5
+SOL-1887,Evaluación de satisfacción del cliente,2020-02-25,2020-03-12,2
+SOL-1888,Instalación de cableado estructurado,2024-10-06,2024-10-12,1
+SOL-1889,Auditoría de procesos internos,2021-12-07,2021-12-12,2
+SOL-1890,Implementación de redes locales,2022-03-07,2022-03-18,3
+SOL-1891,Implementación de redes locales,2021-01-22,2021-02-11,3
+SOL-1892,Auditoría de procesos internos,2023-08-21,2023-09-16,5
+SOL-1893,Mantenimiento de servidores antiguos,2023-12-08,2023-12-12,5
+SOL-1894,Desarrollo de sistema a medida,2023-09-04,2023-09-10,5
+SOL-1895,Revisión de contrato marco,2020-07-24,2020-08-09,2
+SOL-1896,Auditoría de procesos internos,2024-02-08,2024-02-11,5
+SOL-1897,Capacitación técnica al personal,2023-08-08,2023-08-14,1
+SOL-1898,Implementación de redes locales,2023-03-12,2023-04-01,5
+SOL-1899,Desarrollo de sistema a medida,2022-01-28,2022-02-20,1
+SOL-1900,Auditoría de procesos internos,2021-12-18,2021-12-31,1
+SOL-1901,Mantenimiento de servidores antiguos,2020-11-07,2020-11-29,1
+SOL-1902,Evaluación de satisfacción del cliente,2020-08-30,2020-09-12,5
+SOL-1903,Auditoría de procesos internos,2021-09-25,2021-10-22,4
+SOL-1904,Capacitación técnica al personal,2022-10-03,2022-10-31,3
+SOL-1905,Capacitación técnica al personal,2025-04-10,2025-04-10,5
+SOL-1906,Actualización de sistema contable,2020-04-13,2020-04-29,2
+SOL-1907,Auditoría de procesos internos,2024-07-15,2024-07-24,5
+SOL-1908,Instalación de cableado estructurado,2022-09-16,2022-10-09,2
+SOL-1909,Instalación de cableado estructurado,2022-06-21,2022-07-16,3
+SOL-1910,Mantenimiento de servidores antiguos,2021-04-14,2021-05-10,3
+SOL-1911,Actualización de sistema contable,2024-05-29,2024-05-29,2
+SOL-1912,Capacitación técnica al personal,2023-06-11,2023-06-23,3
+SOL-1913,Capacitación técnica al personal,2021-02-19,2021-03-11,2
+SOL-1914,Revisión de contrato marco,2020-10-30,2020-11-27,5
+SOL-1915,Evaluación de satisfacción del cliente,2025-02-24,2025-03-21,1
+SOL-1916,Actualización de sistema contable,2024-07-17,2024-08-12,3
+SOL-1917,Capacitación técnica al personal,2023-06-05,2023-06-13,5
+SOL-1918,Capacitación técnica al personal,2021-01-03,2021-01-28,2
+SOL-1919,Revisión de contrato marco,2025-01-22,2025-01-28,5
+SOL-1920,Consultoría para digitalización,2022-12-15,2022-12-27,5
+SOL-1921,Capacitación técnica al personal,2023-09-04,2023-09-23,4
+SOL-1922,Consultoría para digitalización,2023-07-11,2023-07-25,3
+SOL-1923,Auditoría de procesos internos,2024-07-19,2024-08-01,1
+SOL-1924,Instalación de cableado estructurado,2023-11-18,2023-12-06,1
+SOL-1925,Capacitación técnica al personal,2024-08-16,2024-09-13,2
+SOL-1926,Consultoría para digitalización,2024-05-02,2024-05-04,2
+SOL-1927,Implementación de redes locales,2020-12-27,2021-01-11,4
+SOL-1928,Instalación de cableado estructurado,2021-08-01,2021-08-13,1
+SOL-1929,Capacitación técnica al personal,2023-01-11,2023-01-13,2
+SOL-1930,Desarrollo de sistema a medida,2022-08-26,2022-09-04,5
+SOL-1931,Instalación de cableado estructurado,2022-05-08,2022-05-16,2
+SOL-1932,Revisión de contrato marco,2022-10-15,2022-11-08,3
+SOL-1933,Mantenimiento de servidores antiguos,2020-06-16,2020-06-24,3
+SOL-1934,Revisión de contrato marco,2020-02-24,2020-02-25,5
+SOL-1935,Actualización de sistema contable,2020-08-18,2020-09-15,5
+SOL-1936,Revisión de contrato marco,2025-01-09,2025-01-12,4
+SOL-1937,Desarrollo de sistema a medida,2022-09-05,2022-09-06,1
+SOL-1938,Consultoría para digitalización,2023-09-24,2023-09-29,4
+SOL-1939,Auditoría de procesos internos,2024-06-08,2024-07-08,1
+SOL-1940,Actualización de sistema contable,2021-10-08,2021-10-11,2
+SOL-1941,Auditoría de procesos internos,2022-03-28,2022-04-19,4
+SOL-1942,Desarrollo de sistema a medida,2021-01-21,2021-02-19,1
+SOL-1943,Implementación de redes locales,2024-01-21,2024-02-17,4
+SOL-1944,Evaluación de satisfacción del cliente,2022-06-12,2022-06-25,4
+SOL-1945,Evaluación de satisfacción del cliente,2023-04-10,2023-04-30,4
+SOL-1946,Revisión de contrato marco,2023-09-06,2023-09-12,5
+SOL-1947,Mantenimiento de servidores antiguos,2023-05-14,2023-05-20,4
+SOL-1948,Auditoría de procesos internos,2023-08-17,2023-09-12,3
+SOL-1949,Mantenimiento de servidores antiguos,2021-02-15,2021-03-06,5
+SOL-1950,Implementación de redes locales,2020-08-22,2020-09-07,4
+SOL-1951,Revisión de contrato marco,2020-08-04,2020-08-11,4
+SOL-1952,Auditoría de procesos internos,2021-12-23,2022-01-17,3
+SOL-1953,Consultoría para digitalización,2023-08-11,2023-08-23,3
+SOL-1954,Evaluación de satisfacción del cliente,2024-05-04,2024-05-10,4
+SOL-1955,Revisión de contrato marco,2023-04-05,2023-04-09,5
+SOL-1956,Auditoría de procesos internos,2021-09-06,2021-09-26,2
+SOL-1957,Mantenimiento de servidores antiguos,2023-11-24,2023-11-30,1
+SOL-1958,Mantenimiento de servidores antiguos,2022-05-28,2022-06-17,5
+SOL-1959,Instalación de cableado estructurado,2023-12-16,2024-01-13,2
+SOL-1960,Mantenimiento de servidores antiguos,2021-08-23,2021-08-23,3
+SOL-1961,Instalación de cableado estructurado,2022-08-07,2022-08-26,3
+SOL-1962,Revisión de contrato marco,2022-05-14,2022-05-21,4
+SOL-1963,Revisión de contrato marco,2022-11-15,2022-12-13,4
+SOL-1964,Actualización de sistema contable,2024-05-01,2024-05-06,4
+SOL-1965,Actualización de sistema contable,2024-04-24,2024-05-01,4
+SOL-1966,Instalación de cableado estructurado,2021-10-13,2021-10-23,4
+SOL-1967,Consultoría para digitalización,2024-06-08,2024-06-30,5
+SOL-1968,Implementación de redes locales,2023-08-25,2023-09-04,5
+SOL-1969,Desarrollo de sistema a medida,2022-11-05,2022-11-17,1
+SOL-1970,Evaluación de satisfacción del cliente,2022-03-02,2022-03-15,3
+SOL-1971,Instalación de cableado estructurado,2020-03-18,2020-04-09,1
+SOL-1972,Instalación de cableado estructurado,2023-05-05,2023-05-06,1
+SOL-1973,Capacitación técnica al personal,2023-07-03,2023-07-14,1
+SOL-1974,Mantenimiento de servidores antiguos,2021-02-09,2021-03-10,4
+SOL-1975,Consultoría para digitalización,2020-10-26,2020-11-07,5
+SOL-1976,Implementación de redes locales,2021-03-22,2021-03-23,5
+SOL-1977,Capacitación técnica al personal,2023-03-02,2023-03-08,3
+SOL-1978,Mantenimiento de servidores antiguos,2024-02-17,2024-02-20,4
+SOL-1979,Capacitación técnica al personal,2022-11-24,2022-12-14,3
+SOL-1980,Auditoría de procesos internos,2021-01-30,2021-01-30,1
+SOL-1981,Actualización de sistema contable,2022-09-18,2022-10-10,4
+SOL-1982,Mantenimiento de servidores antiguos,2024-03-30,2024-04-07,5
+SOL-1983,Capacitación técnica al personal,2020-12-05,2020-12-16,5
+SOL-1984,Auditoría de procesos internos,2025-04-06,2025-04-14,4
+SOL-1985,Implementación de redes locales,2025-02-05,2025-02-22,5
+SOL-1986,Actualización de sistema contable,2021-03-25,2021-03-29,3
+SOL-1987,Revisión de contrato marco,2022-02-28,2022-03-06,1
+SOL-1988,Auditoría de procesos internos,2024-01-08,2024-01-25,4
+SOL-1989,Mantenimiento de servidores antiguos,2021-07-07,2021-08-04,5
+SOL-1990,Capacitación técnica al personal,2024-11-14,2024-12-12,4
+SOL-1991,Evaluación de satisfacción del cliente,2024-08-31,2024-09-11,1
+SOL-1992,Capacitación técnica al personal,2022-05-09,2022-05-29,4
+SOL-1993,Instalación de cableado estructurado,2023-05-17,2023-05-30,1
+SOL-1994,Desarrollo de sistema a medida,2024-05-31,2024-06-30,2
+SOL-1995,Revisión de contrato marco,2021-09-22,2021-10-08,2
+SOL-1996,Evaluación de satisfacción del cliente,2023-06-08,2023-06-28,1
+SOL-1997,Implementación de redes locales,2021-12-29,2022-01-28,2
+SOL-1998,Capacitación técnica al personal,2021-09-23,2021-10-20,3
+SOL-1999,Capacitación técnica al personal,2021-06-09,2021-06-13,1
+SOL-2000,Revisión de contrato marco,2023-01-20,2023-02-05,3
