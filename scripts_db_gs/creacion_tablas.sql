@@ -80,8 +80,7 @@ CREATE TABLE Especialidad_equipo
 );
 
 DROP TABLE IF EXISTS Satisfacci CASCADE;
-CREATE TABLE Satisfacci
-ón (
+CREATE TABLE Satisfacción (
     id_satisfaccion INT NOT NULL,
     nombre_satisfaccion CHAR(20) NOT NULL,
     puntuacion INT NOT NULL,
@@ -227,8 +226,7 @@ CREATE TABLE Personal_asignado
 );
 
 DROP TABLE IF EXISTS C CASCADE;
-CREATE TABLE C
-átalogo_servicios (
+CREATE TABLE Cátalogo_servicios (
     id_servicio INT NOT NULL,
     nombre CHAR(20) NOT NULL,
     cod_categoria VARCHAR(10) NOT NULL,
@@ -251,23 +249,30 @@ CREATE TABLE Empresa
 );
 
 DROP TABLE IF EXISTS Solicitud_web CASCADE;
-CREATE TABLE Solicitud_web
- (
+
+-- Primero creamos el tipo ENUM con los 3 estados
+CREATE TYPE estado_solicitud_type AS ENUM (
+    'pendiente',
+    'revisada',
+    'contestada'
+);
+
+-- Luego creamos la tabla con el ENUM aplicado
+CREATE TABLE Solicitud_web (
     id_solicitud_web INT NOT NULL,
     nombre_solicitante CHAR(20) NOT NULL,
     apellido_solicitante CHAR(20) NOT NULL,
     telefono_solicitante INT NOT NULL,
     correo_solicitante VARCHAR(20) NOT NULL,
     fecha_envio DATE NOT NULL,
-    estado_solicitud VARCHAR NOT NULL,
+    estado_solicitud estado_solicitud_type NOT NULL DEFAULT 'pendiente',
     id_empresa INT NOT NULL,
     PRIMARY KEY (id_solicitud_web),
     FOREIGN KEY (id_empresa) REFERENCES Empresa (id_empresa)
 );
 
 DROP TABLE IF EXISTS Asignaci CASCADE;
-CREATE TABLE Asignaci
-ón_recurso (
+CREATE TABLE Asignación_recurso (
     id_asignacion_r INT NOT NULL,
     descripcion VARCHAR(100) NOT NULL,
     fecha_asignacion DATE NOT NULL,
@@ -313,8 +318,7 @@ CREATE TABLE Requisitos
 );
 
 DROP TABLE IF EXISTS Revisi CASCADE;
-CREATE TABLE Revisi
-ón_de_requisitos (
+CREATE TABLE Revisión_de_requisitos (
     id_revision_r INT NOT NULL,
     fecha_revision_requisitos DATE NOT NULL,
     medio_de_aclaracion VARCHAR(15) NOT NULL,
@@ -377,8 +381,7 @@ CREATE TABLE Evaluacion_financiera_requisitos
 );
 
 DROP TABLE IF EXISTS Notificaci CASCADE;
-CREATE TABLE Notificaci
-ón (
+CREATE TABLE Notificación (
     id_notificacion INT NOT NULL,
     mensaje TEXT NOT NULL,
     fecha_envio DATE NOT NULL,
@@ -480,14 +483,25 @@ CREATE TABLE Contrato
     FOREIGN KEY (id_solicitud) REFERENCES Solicitud (id_solicitud)
 );
 
+-- Eliminamos la tabla si existe
 DROP TABLE IF EXISTS proyecto CASCADE;
-CREATE TABLE proyecto
- (
+
+-- Creamos el tipo ENUM para los estados del proyecto
+CREATE TYPE estado_proyecto_type AS ENUM (
+    'Planificado',
+    'En Ejecución',
+    'Suspendido',
+    'Finalizado',
+    'Cancelado'
+);
+
+-- Creamos la tabla con el ENUM aplicado
+CREATE TABLE proyecto (
     cod_proyecto INT NOT NULL,
     nombre_proyecto CHAR(20) NOT NULL,
     descripción_proyecto VARCHAR(50) NOT NULL,
     presupuesto FLOAT NOT NULL,
-    estado_proyecto INT NOT NULL,
+    estado_proyecto estado_proyecto_type NOT NULL DEFAULT 'Planificado',
     fecha_inicio DATE NOT NULL,
     fecha_fin DATE NOT NULL,
     id_solicitud VARCHAR(20) NOT NULL,
@@ -716,12 +730,19 @@ CREATE TABLE Dolor_equipo_tecnico
 );
 
 DROP TABLE IF EXISTS Encargo_comercial CASCADE;
-CREATE TABLE Encargo_comercial
- (
+
+CREATE TYPE estado_encargo_type AS ENUM (
+    'pendiente',
+    'en progreso',
+    'completado'
+);
+
+-- Creamos la tabla con el ENUM aplicado (Encargo Comercial)
+CREATE TABLE Encargo_comercial (
     id_encargo INT NOT NULL,
     nombre_encargo CHAR(10) NOT NULL,
     fecha_asignacion DATE NOT NULL,
-    estado_encargo CHAR(10) NOT NULL,
+    estado_encargo estado_encargo_type NOT NULL DEFAULT 'pendiente',
     fecha_termino DATE NOT NULL,
     id_responsable INT NOT NULL,
     id_asignador INT NOT NULL,
