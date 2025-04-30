@@ -1,3 +1,23 @@
+-- Eliminación segura de tipos ENUM si ya existen
+DO $$
+DECLARE
+  enum_name TEXT;
+BEGIN
+  FOR enum_name IN
+    SELECT DISTINCT t.typname
+    FROM pg_type t
+    JOIN pg_enum e ON t.oid = e.enumtypid
+    WHERE t.typname IN (
+      'estado_solicitud_type',
+      'estado_proyecto_type',
+      'estado_encargo_type'
+    )
+  LOOP
+    EXECUTE format('DROP TYPE IF EXISTS %I CASCADE;', enum_name);
+  END LOOP;
+END $$;
+
+
 DROP TABLE IF EXISTS Rol CASCADE;
 CREATE TABLE Rol (
     id_rol INT NOT NULL,
