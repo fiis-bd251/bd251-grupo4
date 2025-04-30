@@ -514,15 +514,47 @@ INSERT INTO Solicitud (id_solicitud, descripción_solicitud, fecha_solicitud, fe
   ('SOL008', 'Despliegue en producción',   '2025-04-18', '2025-04-22', 8);
 
 -- Poblamiento de Contrato (8 filas)
-INSERT INTO Contrato (cod_contrato, nombre_contrato, monto, contenido,condiciones_contrato, id_contrato, fecha_contrato,id_version, id_solicitud) VALUES
-  (1001, 'Contrato A', 50000.00, 'Contenido A', 'Condiciones A', 1, '2025-04-16', 1, 'SOL001'),
-  (1002, 'Contrato B', 75000.00, 'Contenido B', 'Condiciones B', 2, '2025-04-17', 2, 'SOL002'),
-  (1003, 'Contrato C', 60000.00, 'Contenido C', 'Condiciones C', 3, '2025-04-18', 3, 'SOL003'),
-  (1004, 'Contrato D', 82000.00, 'Contenido D', 'Condiciones D', 4, '2025-04-19', 4, 'SOL004'),
-  (1005, 'Contrato E', 45000.00, 'Contenido E', 'Condiciones E', 5, '2025-04-20', 5, 'SOL005'),
-  (1006, 'Contrato F', 90000.00, 'Contenido F', 'Condiciones F', 6, '2025-04-21', 6, 'SOL006'),
-  (1007, 'Contrato G', 68000.00, 'Contenido G', 'Condiciones G', 7, '2025-04-22', 7, 'SOL007'),
-  (1008, 'Contrato H', 72000.00, 'Contenido H', 'Condiciones H', 8, '2025-04-23', 8, 'SOL008');
+INSERT INTO Contrato (cod_contrato, nombre_contrato, monto, contenido, condiciones_contrato, id_contrato, fecha_contrato, id_version, id_solicitud) VALUES
+(1001, 'Contrato Agro', 50000.00,
+ 'Contrato de desarrollo web con panel administrativo. Se detalla arquitectura de tres capas y entregables en fases.',
+ 'Penalidad del 1% por cada día de retraso en entregas. Garantía de 6 meses incluida.',
+ 1, '2025-04-16', 1, 'SOL001'),
+
+(1002, 'Contrato La plata', 75000.00,
+ 'Contrato para implementación de ERP con módulos de contabilidad y logística. Incluye capacitación al personal.',
+ 'Se requiere cumplir con el cronograma. La capacitación debe cubrir al 100% del personal.',
+ 2, '2025-04-17', 2, 'SOL002'),
+
+(1003, 'Contrato Arequipa', 60000.00,
+ 'Contrato de soporte técnico remoto y monitoreo 24/7 para infraestructura en la nube.',
+ 'Tiempo de respuesta máximo: 6 horas. Penalidades aplicables por interrupciones superiores a 1 hora.',
+ 3, '2025-04-18', 3, 'SOL003'),
+
+(1004, 'Contrato Paso firme', 82000.00,
+ 'Contrato para la implementación de una solución BI con dashboards en tiempo real y alertas automáticas.',
+ 'El proveedor debe entregar acceso a reportes interactivos y documentación técnica completa.',
+ 4, '2025-04-19', 4, 'SOL004'),
+
+(1005, 'Contrato Plata', 45000.00,
+ 'Contrato de licenciamiento anual para plataforma de gestión de proyectos con integración a Microsoft Teams.',
+ 'La renovación es automática salvo aviso previo. Soporte incluido por 12 meses.',
+ 5, '2025-04-20', 5, 'SOL005'),
+
+(1006, 'Contrato Free man', 90000.00,
+ 'Contrato de consultoría en ciberseguridad con evaluaciones periódicas de vulnerabilidades.',
+ 'Debe entregarse un informe técnico mensual. Penalidad del 3% si no se cumple el calendario.',
+ 6, '2025-04-21', 6, 'SOL006'),
+
+(1007, 'Contrato Gman', 68000.00,
+ 'Desarrollo de app móvil con funcionalidades offline, sincronización de datos y escaneo de QR.',
+ 'Entrega en tres sprints. Cada módulo debe ser validado por el cliente antes del despliegue.',
+ 7, '2025-04-22', 7, 'SOL007'),
+
+(1008, 'Contrato Holijo', 72000.00,
+ 'Desarrollo de chatbot con integración a WhatsApp y motor de IA entrenado en preguntas frecuentes.',
+ 'La solución debe ser escalable. Se evaluará la precisión de respuestas con métricas mensuales.',
+ 8, '2025-04-23', 8, 'SOL008');
+
 
 -- Poblamiento de proyecto (8 filas) con estados válidos
 INSERT INTO proyecto (
@@ -580,15 +612,16 @@ INSERT INTO Detalles_tecnicos (id_detalle_tecnico, arquitectura, metodologia,int
 
 -- Poblamiento de Propuesta (8 filas)
 INSERT INTO Propuesta (
-  id_propuesta, titulo_propuesta, descripcion_propuesta,fecha_propuesta, estado_prouesta, etapa_propuesta ,id_detalle_tecnico, id_presupuesto, id_respuesta_, id_requisitos) VALUES
-  (1, 'Prop A', 'Descripción A', '2025-04-12', 'BT', 'I', 1, 1, 1, 1),
-  (2, 'Prop B', 'Descripción B', '2025-04-13', 'TA', 'T', 2, 2, 2, 2),
-  (3, 'Prop C', 'Descripción C', '2025-04-14', 'PA', 'C', 3, 3, 3, 3),
-  (4, 'Prop D', 'Descripción D', '2025-04-15', 'PR', 'L', 4, 4, 4, 4),
-  (5, 'Prop E', 'Descripción E', '2025-04-16', 'AC', 'F', 5, 5, 5, 5),
-  (6, 'Prop F', 'Descripción F', '2025-04-17', 'RC', 'I', 6, 6, 6, 6),
-  (7, 'Prop G', 'Descripción G', '2025-04-18', 'AR', 'T', 7, 7, 7, 7),
-  (8, 'Prop H', 'Descripción H', '2025-04-19', 'AR', 'C', 8, 8, 8, 8);
+  id_propuesta, titulo_propuesta, descripcion_propuesta, fecha_propuesta, estado_prouesta, etapa_propuesta, id_detalle_tecnico, id_presupuesto, id_respuesta_, id_requisitos) VALUES
+  (1, 'Mejoramiento de la plataforma', 'Actualizar la plataforma para mejorar el rendimiento y experiencia del usuario.', '2025-04-12', 'BT', 'I', 1, 1, 1, 1),
+  (2, 'Eliminar registros antiguos', 'Depurar la base de datos eliminando registros inactivos para optimizar el sistema.', '2025-04-13', 'TA', 'T', 2, 2, 2, 2),
+  (3, 'Implementación de pagos online', 'Habilitar opciones de pago en línea mediante pasarelas de pago seguras.', '2025-04-14', 'PA', 'C', 3, 3, 3, 3),
+  (4, 'Ampliación del comedor', 'Propuesta de ampliación física del comedor universitario por aumento de demanda.', '2025-04-15', 'PR', 'L', 4, 4, 4, 4),
+  (5, 'Talleres de capacitación', 'Capacitar al personal en nuevas herramientas digitales para la gestión de usuarios.', '2025-04-16', 'AC', 'F', 5, 5, 5, 5),
+  (6, 'Rediseño del sistema de tickets', 'Cambiar el sistema actual por una versión más moderna y accesible.', '2025-04-17', 'RC', 'I', 6, 6, 6, 6),
+  (7, 'Extensión de turnos de atención', 'Agregar más turnos durante horas pico para mejorar el flujo de usuarios.', '2025-04-18', 'AR', 'T', 7, 7, 7, 7),
+  (8, 'Desarrollo de app móvil', 'Crear una aplicación móvil para que los usuarios puedan gestionar sus tickets.', '2025-04-19', 'AR', 'C', 8, 8, 8, 8);
+
 
 -- Poblamiento de Gerente_Comercial (8 filas)
 INSERT INTO Gerente_Comercial (id_gerente_comercial, nombre_gerente, telefono_gerente, correo_gerente, id_usuario, id_validacion_presupuesto) VALUES
