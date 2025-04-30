@@ -340,7 +340,7 @@ INSERT INTO Cátalogo_servicios (id_servicio, nombre, cod_categoria) VALUES
   (10, 'Testing Automatizado','CAT11');
 
 -- Poblamiento de Empresa (10 filas)
-INSERT INTO Empresa (id_empresa, nombre_empresa, tamaño_empresa, telefono_empresa, web_corporativa, ranklng, cod_sector) VALUES
+INSERT INTO Empresa (id_empresa, nombre_empresa, tamano_empresa, telefono_empresa, web_corporativa, ranklng, cod_sector) VALUES
   (1,  'TechSol Ltd.       ', 150,  987654321, 'techsol.com',    5, 1),
   (2,  'SaludPlus S.A.     ',  80,  912345678, 'saludplus.pe',   4, 2),
   (3,  'EducaGlobal        ', 200,  976543210, 'educaglobal.edu',3, 3),
