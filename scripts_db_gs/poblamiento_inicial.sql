@@ -1,3 +1,30 @@
+--- Eliminación de datos anteriores ---
+DO $$ 
+DECLARE
+    row RECORD;
+    seq RECORD;
+BEGIN
+    -- Truncar todas las tablas en el esquema 'public'
+    FOR row IN
+        SELECT tablename
+        FROM pg_tables
+        WHERE schemaname = 'public'
+    LOOP
+        EXECUTE 'TRUNCATE TABLE ' || quote_ident(row.tablename) || ' CASCADE';
+    END LOOP;
+
+    -- Reiniciar las secuencias asociadas
+    FOR seq IN
+        SELECT c.oid::regclass::text AS sequence_name
+        FROM pg_class c
+        JOIN pg_namespace n ON n.oid = c.relnamespace
+        WHERE c.relkind = 'S' -- 'S' indica que es una secuencia
+          AND n.nspname = 'public'
+    LOOP
+        EXECUTE 'ALTER SEQUENCE ' || quote_ident(seq.sequence_name) || ' RESTART WITH 1';
+    END LOOP;
+END $$;
+
 -- Poblamiento de Rol (12 filas)
 INSERT INTO Rol (id_rol, nombre_rol, descripción) VALUES
   (1,  'ADMIN',         'Administrador del sistema'),
