@@ -8,9 +8,19 @@ BEGIN
     FROM pg_type t
     JOIN pg_enum e ON t.oid = e.enumtypid
     WHERE t.typname IN (
-      'estado_solicitud_type',
-      'estado_proyecto_type',
-      'estado_encargo_type'
+      'estado_solicitud_type' ,
+      'estado_proyecto_type'  ,
+      'estado_encargo_type'   ,
+      'estado_propuesta_type' ,
+      'etapa_propuesta_type'  ,
+      'tipo_respuesta_type'   ,
+      'rol_tecnico_type'      ,
+      'estado_validacion_type',
+      'estado_comentario_type',
+      'modalidad_reunion_type',
+      'estado_reunion_type'   ,
+      'tipo_metodologia_type' 
+
     )
   LOOP
     EXECUTE format('DROP TYPE IF EXISTS %I CASCADE;', enum_name);
@@ -46,6 +56,12 @@ CREATE TABLE Version_contrato (
     PRIMARY KEY (id_version)
 );
 
+-- Creación de los tipos ENUM
+CREATE TYPE estado_comentario_type AS ENUM (
+    'A', -- Abierto
+    'R'  -- Resuelto
+);
+
 DROP TABLE IF EXISTS Comentario CASCADE;
 CREATE TABLE Comentario (
     id_comentario INT NOT NULL,
@@ -53,7 +69,7 @@ CREATE TABLE Comentario (
     texto_comentario TEXT NOT NULL,
     id_origen INT NOT NULL,
     tipo_origen VARCHAR(50) NOT NULL,
-    estado CHAR(1) NOT NULL,
+    estado estado_comentario_type NOT NULL,
     id_usuario INT NOT NULL,
     id_comentario_padre INT NOT NULL,
     PRIMARY KEY (id_comentario),
@@ -106,11 +122,17 @@ CREATE TABLE Tipo_convocatoria (
     PRIMARY KEY (cod_tipo_convocatoria)
 );
 
+-- Creación de los tipos ENUM
+CREATE TYPE estado_validacion_type AS ENUM (
+    'PD', -- Pendiente
+    'AP'  -- Aprobado
+);
+
 DROP TABLE IF EXISTS Validacion_presupuesto CASCADE;
 CREATE TABLE Validacion_presupuesto (
     id_validacion_presupuesto INT NOT NULL,
     fecha_validacion DATE NOT NULL,
-    estado_validacion CHAR(2) NOT NULL,
+    estado_validacion estado_validacion_type NOT NULL,
     id_comentario INT NOT NULL,
     PRIMARY KEY (id_validacion_presupuesto),
     FOREIGN KEY (id_comentario) REFERENCES Comentario (id_comentario)
@@ -132,13 +154,20 @@ CREATE TABLE Detalle_presupuesto (
     PRIMARY KEY (id_detalle)
 );
 
+CREATE TYPE rol_tecnico_type AS ENUM (
+    'DT', -- Desarrollador Técnico
+    'QA', -- Calidad / QA
+    'DA', -- Diseñador
+    'PM'  -- Project Manager
+);
+
 DROP TABLE IF EXISTS Recurso_asignado CASCADE;
 CREATE TABLE Recurso_asignado (
     id_recurso INT NOT NULL,
     costo_total FLOAT NOT NULL,
     meses INT NOT NULL,
     tarifa FLOAT NOT NULL,
-    rol_tecnico CHAR(2) NOT NULL,
+    rol_tecnico rol_tecnico_type NOT NULL,
     horas INT NOT NULL,
     PRIMARY KEY (id_recurso)
 );
@@ -180,11 +209,17 @@ CREATE TABLE Presupuesto_propuesta (
     FOREIGN KEY (id_documento) REFERENCES Documento (id_documento)
 );
 
+-- Creación de los tipos ENUM
+CREATE TYPE tipo_respuesta_type AS ENUM (
+    'A', -- Acepta la propuesta
+    'R'  -- Rechaza la propuesta
+); 
+
 DROP TABLE IF EXISTS Respuesta_cliente CASCADE;
 CREATE TABLE Respuesta_cliente (
     id_respuesta_ INT NOT NULL,
-    tipo_respuesta INT NOT NULL,
-    comentarios VARCHAR(500) NOT NULL,
+    tipo_respuesta tipo_respuesta_type NOT NULL,
+    comentarios TEXT NOT NULL,
     fecha_respuesta DATE NOT NULL,
     PRIMARY KEY (id_respuesta_)
 );
@@ -402,18 +437,25 @@ CREATE TABLE Auditoría (
 DROP TABLE IF EXISTS Validacion_detalles_tecnicos CASCADE;
 CREATE TABLE Validacion_detalles_tecnicos (
     id_validacion_detalles INT NOT NULL,
-    estado_validacion CHAR(2) NOT NULL,
+    estado_validacion estado_validacion_type NOT NULL,
     fecha_validacion DATE NOT NULL,
     id_comentario INT NOT NULL,
     PRIMARY KEY (id_validacion_detalles),
     FOREIGN KEY (id_comentario) REFERENCES Comentario (id_comentario)
 );
 
+-- Creación de los tipos ENUM
+CREATE TYPE tipo_metodologia_type AS ENUM (
+    'AG', -- Ágil
+    'CA', -- Cascada
+    'HI'  -- Híbrida
+);
+
 DROP TABLE IF EXISTS Detalles_tecnicos CASCADE;
 CREATE TABLE Detalles_tecnicos (
     id_detalle_tecnico INT NOT NULL,
     arquitectura VARCHAR(50) NOT NULL,
-    metodologia CHAR(2) NOT NULL,
+    metodologia tipo_metodologia_type NOT NULL,
     integraciones VARCHAR(100) NOT NULL,
     id_modulo INT NOT NULL,
     id_hito INT NOT NULL,
@@ -426,14 +468,33 @@ CREATE TABLE Detalles_tecnicos (
     FOREIGN KEY (id_documento) REFERENCES Documento (id_documento)
 );
 
+-- Creación de los tipos ENUM
+CREATE TYPE estado_propuesta_type AS ENUM (
+    'BT', -- Borrador técnico
+    'TA', -- Rev. Técnica Aprobada
+    'PA', -- Rev. Presupuesto Aprobada
+    'PR', -- Presentación
+    'AC', -- Aceptada
+    'RC', -- Rechazada
+    'AR'  -- Archivada
+);
+
+CREATE TYPE etapa_propuesta_type AS ENUM (
+    'I', -- Inicial: primera version de la propuesta
+    'T', -- Tecnica: la propuesta esta en la negociación tecnica
+    'C', -- Comercial: la propuesta esta en la negociación comercial
+    'L', -- Legal: la propuesta esta en la negociación legal
+    'F'  -- Final: la propuesta ha sido firmada
+);
+
 DROP TABLE IF EXISTS Propuesta CASCADE;
 CREATE TABLE Propuesta (
     id_propuesta INT NOT NULL,
     titulo_propuesta VARCHAR(50) NOT NULL,
     descripcion_propuesta VARCHAR(100) NOT NULL,
     fecha_propuesta DATE NOT NULL,
-    estado_prouesta CHAR(2) NOT NULL,
-    satisface_requisitos CHAR(2) NOT NULL,
+    estado_prouesta estado_propuesta_type NOT NULL,
+    etapa_propuesta etapa_propuesta_type NOT NULL,
     id_detalle_tecnico INT NOT NULL,
     id_presupuesto INT NOT NULL,
     id_respuesta_ INT NOT NULL,
@@ -779,6 +840,18 @@ CREATE TABLE Mensaje (
     FOREIGN KEY (id_conversacion_pre) REFERENCES Conversación_preventa (id_conversacion_pre)
 );
 
+-- Creación de los tipos ENUM
+CREATE TYPE estado_reunion_type AS ENUM (
+    'PR', -- Programada
+    'RE', -- Realizada
+    'CA'  -- Cancelada
+);
+
+CREATE TYPE modalidad_reunion_type AS ENUM (
+    'V', -- Virtual
+    'P'  -- Presencial
+);
+
 DROP TABLE IF EXISTS Reunion CASCADE;
 CREATE TABLE Reunion (
     id_reunion INT NOT NULL,
@@ -786,9 +859,9 @@ CREATE TABLE Reunion (
     hora_final TIME NOT NULL,
     fecha_re DATE NOT NULL,
     resumen_re VARCHAR(100) NOT NULL,
-    modalidad_re CHAR(1) NOT NULL,
-    lugar_re CHAR(100) NOT NULL,
-    estado_re CHAR(2) NOT NULL,
+    modalidad_re modalidad_reunion_type NOT NULL,
+    lugar_re VARCHAR(100) NOT NULL, -- Cambié CHAR(100) a VARCHAR(100) para mejor manejo de texto
+    estado_re estado_reunion_type NOT NULL,
     id_ejecutivo_comercial INT NOT NULL,
     id_cliente INT NOT NULL,
     id_propuesta INT NOT NULL,
