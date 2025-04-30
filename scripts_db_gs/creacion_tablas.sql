@@ -228,6 +228,15 @@ CREATE TABLE Empresa (
 );
 
 DROP TABLE IF EXISTS Solicitud_web CASCADE;
+
+-- Primero creamos el tipo ENUM con los 3 estados
+CREATE TYPE estado_solicitud_type AS ENUM (
+    'pendiente',
+    'revisada',
+    'contestada'
+);
+
+-- Luego creamos la tabla con el ENUM aplicado
 CREATE TABLE Solicitud_web (
     id_solicitud_web INT NOT NULL,
     nombre_solicitante CHAR(20) NOT NULL,
@@ -235,11 +244,12 @@ CREATE TABLE Solicitud_web (
     telefono_solicitante INT NOT NULL,
     correo_solicitante VARCHAR(20) NOT NULL,
     fecha_envio DATE NOT NULL,
-    estado_solicitud VARCHAR NOT NULL,
+    estado_solicitud estado_solicitud_type NOT NULL DEFAULT 'pendiente',
     id_empresa INT NOT NULL,
     PRIMARY KEY (id_solicitud_web),
     FOREIGN KEY (id_empresa) REFERENCES Empresa (id_empresa)
 );
+
 
 DROP TABLE IF EXISTS Asignación_recurso CASCADE;
 CREATE TABLE Asignación_recurso (
@@ -443,12 +453,23 @@ CREATE TABLE Contrato (
 );
 
 DROP TABLE IF EXISTS proyecto CASCADE;
+
+-- Creamos el tipo ENUM para los estados del proyecto
+CREATE TYPE estado_proyecto_type AS ENUM (
+    'Planificado',
+    'En Ejecución',
+    'Suspendido',
+    'Finalizado',
+    'Cancelado'
+);
+
+-- Creamos la tabla con el ENUM aplicado
 CREATE TABLE proyecto (
     cod_proyecto INT NOT NULL,
     nombre_proyecto CHAR(20) NOT NULL,
     descripción_proyecto VARCHAR(50) NOT NULL,
     presupuesto FLOAT NOT NULL,
-    estado_proyecto INT NOT NULL,
+    estado_proyecto estado_proyecto_type NOT NULL DEFAULT 'Planificado',
     fecha_inicio DATE NOT NULL,
     fecha_fin DATE NOT NULL,
     id_solicitud VARCHAR(20) NOT NULL,
@@ -661,11 +682,19 @@ CREATE TABLE Dolor_equipo_tecnico (
 );
 
 DROP TABLE IF EXISTS Encargo_comercial CASCADE;
+
+CREATE TYPE estado_encargo_type AS ENUM (
+    'pendiente',
+    'en progreso',
+    'completado'
+);
+
+-- Creamos la tabla con el ENUM aplicado (Encargo Comercial)
 CREATE TABLE Encargo_comercial (
     id_encargo INT NOT NULL,
     nombre_encargo CHAR(10) NOT NULL,
     fecha_asignacion DATE NOT NULL,
-    estado_encargo CHAR(10) NOT NULL,
+    estado_encargo estado_encargo_type NOT NULL DEFAULT 'pendiente',
     fecha_termino DATE NOT NULL,
     id_responsable INT NOT NULL,
     id_asignador INT NOT NULL,
@@ -673,6 +702,7 @@ CREATE TABLE Encargo_comercial (
     FOREIGN KEY (id_responsable) REFERENCES Ejecutivo_Comercial (id_ejecutivo_comercial),
     FOREIGN KEY (id_asignador) REFERENCES Gerente_Comercial (id_gerente_comercial)
 );
+
 
 DROP TABLE IF EXISTS Encargo_proyecto CASCADE;
 CREATE TABLE Encargo_proyecto (
