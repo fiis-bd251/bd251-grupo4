@@ -1,14 +1,8 @@
-TRUNCATE TABLE solicitud CASCADE;
-
--- Carga masiva de datos desde el archivo 'solicitudes.csv'
--- ubicado en la ruta local especificada
-COPY solicitud (
-  id_solicitud,
-  descripcion_solicitud,
-  fecha_solicitud,
-  fecha_firma,
-  id_cliente
-)
-FROM 'C:/Users/usuario/Desktop/UNI-FIIS/2025-I/DBD/solicitudes.csv'
-DELIMITER ','
-CSV HEADER;
+-- Eliminar la base de datos si ya existe
+ DROP DATABASE IF EXISTS gestion_sistemas;
+ 
+ -- Crear la base de datos con configuración regional adecuada
+ CREATE DATABASE gestion_sistemas
+ WITH
+     OWNER = postgres ENCODING = 'UTF8' LC_COLLATE = 'es_PE.UTF-8' LC_CTYPE = 'es_PE.UTF-8' LOCALE_PROVIDER = 'libc' CONNECTION
+ LIMIT = -1 IS_TEMPLATE = false TEMPLATE template0;

@@ -273,7 +273,7 @@ DROP TABLE IF EXISTS Empresa CASCADE;
 CREATE TABLE Empresa (
     id_empresa INT NOT NULL,
     nombre_empresa CHAR(20) NOT NULL,
-    tamaño_empresa INT NOT NULL,
+    tamano_empresa INT NOT NULL,
     telefono_empresa INT NOT NULL,
     web_corporativa VARCHAR(50) NOT NULL,
     ranklng INT NOT NULL,
