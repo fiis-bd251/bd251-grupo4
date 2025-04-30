@@ -101,3 +101,18 @@ WITH (
   HEADER true,
   DELIMITER ','
 );
+
+-- Poblamiento masivo de la tabla Respuesta_cliente
+COPY respuesta_cliente (
+  id_respuesta_,
+  tipo_respuesta,
+  comentarios,
+  fecha_respuesta
+)
+FROM 'C:\\Users\\usuario\\Desktop\\UNI-FIIS\\2025-I\\DBD\\respuesta_cliente.csv'
+WITH (
+  FORMAT csv,
+  HEADER true,
+  DELIMITER ','
+);
+
