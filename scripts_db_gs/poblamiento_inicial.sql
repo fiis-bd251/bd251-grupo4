@@ -74,16 +74,16 @@ INSERT INTO Version_contrato (id_version, version, fecha_version, cambios) VALUE
 INSERT INTO Comentario (id_comentario,fecha_comentario,texto_comentario,id_origen,tipo_origen,estado,id_usuario,id_comentario_padre) VALUES
   (1,  '2025-02-10', 'El cliente solicita claridad en el cronograma.',               1001, 'Proyecto',          'A',  4, 1),
   (2,  '2025-02-11', 'He subido el documento de requisitos corregido.',             2001, 'Requisitos',        'A',  6, 2),
-  (3,  '2025-02-12', 'Revisar la sección de viabilidad técnica antes del envío.',   2001, 'Requisitos',        'I',  3, 3),
+  (3,  '2025-02-12', 'Revisar la sección de viabilidad técnica antes del envío.',   2001, 'Requisitos',        'R',  3, 3),
   (4,  '2025-02-13', 'Se aprueba la versión v1.2 con los ajustes acordados.',        1,    'Version',           'A',  5, 4),
   (5,  '2025-02-14', 'Definir hitos de entrega para el próximo sprint.',             1001, 'Proyecto',          'A',  2, 5),
   (6,  '2025-02-15', 'Asignado a QA para validación final.',                        3001, 'Orden_compra',      'A',  8, 6),
-  (7,  '2025-02-16', 'Presupuesto supera lo acordado, revisar cifras.',              4001, 'Propuesta',         'I', 11, 7),
+  (7,  '2025-02-16', 'Presupuesto supera lo acordado, revisar cifras.',              4001, 'Propuesta',         'R', 11, 7),
   (8,  '2025-02-17', 'Ajustaremos el presupuesto según nuevos requisitos.',          4001, 'Propuesta',         'A',  4, 7),
   (9,  '2025-02-18', '¿Quién se encargará del seguimiento de esta tarea?',           1001, 'Proyecto',          'A',  9, 9),
   (10, '2025-02-19', 'Entregable recibido y validado sin observaciones.',            5001, 'Entregable_exp',    'A', 12,10),
   (11, '2025-02-20', 'Comentarios al informe de auditoría, ver sección financiera.',  5001, 'Auditoría',         'A',  5,11),
-  (12, '2025-02-21', 'Re: Informe financiero, faltan datos de flujo de caja.',        5001, 'Auditoría',         'I',  6,12);
+  (12, '2025-02-21', 'Re: Informe financiero, faltan datos de flujo de caja.',        5001, 'Auditoría',         'R',  6,12);
 
 -- Poblamiento de Documento (12 filas)
 INSERT INTO Documento (id_documento, tipo_doc, fecha_generacion) VALUES
@@ -175,16 +175,16 @@ INSERT INTO Tipo_convocatoria (cod_tipo_convocatoria, tipo_convocatoria) VALUES
 
 -- Poblamiento de Validacion_presupuesto (10 filas)
 INSERT INTO Validacion_presupuesto (id_validacion_presupuesto, fecha_validacion, estado_validacion, id_comentario) VALUES
-  (1, '2025-02-12', 'OK',  3),
-  (2, '2025-02-13', 'RJ',  4),
-  (3, '2025-02-14', 'OK',  5),
+  (1, '2025-02-12', 'AP',  3),
+  (2, '2025-02-13', 'PD',  4),
+  (3, '2025-02-14', 'PD',  5),
   (4, '2025-02-15', 'PD',  6),
-  (5, '2025-02-16', 'OK',  7),
-  (6, '2025-02-17', 'RJ',  8),
-  (7, '2025-02-18', 'OK',  9),
+  (5, '2025-02-16', 'AP',  7),
+  (6, '2025-02-17', 'AP',  8),
+  (7, '2025-02-18', 'PD',  9),
   (8, '2025-02-19', 'PD', 10),
-  (9, '2025-02-20', 'OK', 11),
-  (10,'2025-02-21', 'OK', 12);
+  (9, '2025-02-20', 'AP', 11),
+  (10,'2025-02-21', 'PD', 12);
 
 -- Poblamiento de Sector_Mercado (10 filas)
 INSERT INTO Sector_Mercado (cod_sector, nombre_sector) VALUES
@@ -214,16 +214,16 @@ INSERT INTO Detalle_presupuesto (id_detalle, concepto, costo_total, mes) VALUES
 
 -- Poblamiento de Recurso_asignado (10 filas)
 INSERT INTO Recurso_asignado (id_recurso, costo_total, meses, tarifa, rol_tecnico, horas) VALUES
-  (1,  12000.00, 6, 2000.00, 'DV', 160),
-  (2,  9000.00,  3, 3000.00, 'AN', 120),
+  (1,  12000.00, 6, 2000.00, 'DT', 160),
+  (2,  9000.00,  3, 3000.00, 'QA', 120),
   (3,  8000.00,  4, 2000.00, 'QA', 160),
-  (4,  15000.00, 5, 3000.00, 'DB', 200),
-  (5,  7000.00,  2, 3500.00, 'UX',  80),
+  (4,  15000.00, 5, 3000.00, 'DA', 200),
+  (5,  7000.00,  2, 3500.00, 'QA',  80),
   (6,  10000.00, 4, 2500.00, 'PM', 160),
-  (7,  11000.00, 5, 2200.00, 'SE',  200),
-  (8,  6000.00,  3, 2000.00, 'CO',  120),
-  (9,  13000.00, 6, 2166.67, 'IN', 160),
-  (10, 5000.00,  1, 5000.00, 'TR',  40);
+  (7,  11000.00, 5, 2200.00, 'QA',  200),
+  (8,  6000.00,  3, 2000.00, 'QA',  120),
+  (9,  13000.00, 6, 2166.67, 'DT', 160),
+  (10, 5000.00,  1, 5000.00, 'PM',  40);
 
 -- Poblamiento de Modulo (10 filas)
 INSERT INTO Modulo (id_modulo, nombre, descripcion, recursos, dependencias, funciones) VALUES
@@ -267,16 +267,16 @@ INSERT INTO Presupuesto_propuesta
 
 -- Poblamiento de Respuesta_cliente (10 filas)
 INSERT INTO Respuesta_cliente (id_respuesta_, tipo_respuesta, comentarios, fecha_respuesta) VALUES
-  (1,  1, 'Aceptamos la propuesta sin modificaciones.',           '2025-03-25'),
-  (2,  2, 'Requerimos un ajuste en los plazos de entrega.',      '2025-03-26'),
-  (3,  3, '¿Podrían detallar el desglose de costos adicional?',   '2025-03-27'),
-  (4,  1, 'Confirmamos inicio de proyecto según lo acordado.',   '2025-03-28'),
-  (5,  2, 'No aprobamos la alternativa técnica presentada.',      '2025-03-29'),
-  (6,  3, 'Solicitamos reunión para revisar opciones comerciales.','2025-03-30'),
-  (7,  1, 'Aprobamos la opción de descuento por pronto pago.',    '2025-03-31'),
-  (8,  2, 'Rechazamos la propuesta de recursos adicional.',       '2025-04-01'),
-  (9,  3, '¿Cuál es el impacto en costos si extendemos el plazo?','2025-04-02'),
-  (10, 1, 'Aceptamos la versión final del contrato.',             '2025-04-03');
+  (1,  'A', 'Aceptamos la propuesta sin modificaciones.',           '2025-03-25'),
+  (2,  'R', 'Requerimos un ajuste en los plazos de entrega.',      '2025-03-26'),
+  (3,  'R', '¿Podrían detallar el desglose de costos adicional?',   '2025-03-27'),
+  (4,  'A', 'Confirmamos inicio de proyecto según lo acordado.',   '2025-03-28'),
+  (5,  'R', 'No aprobamos la alternativa técnica presentada.',      '2025-03-29'),
+  (6,  'A', 'Solicitamos reunion para revisar opciones comerciales.','2025-03-30'),
+  (7,  'A', 'Aprobamos la opción de descuento por pronto pago.',    '2025-03-31'),
+  (8,  'R', 'Rechazamos la propuesta de recursos adicional.',       '2025-04-01'),
+  (9,  'A', '¿Cuál es el impacto en costos si extendemos el plazo?','2025-04-02'),
+  (10, 'R', 'Aceptamos la versión final del contrato.',             '2025-04-03');
 
 -- Poblamiento de Alternativas (10 filas)
 INSERT INTO Alternativas (
@@ -340,7 +340,7 @@ INSERT INTO Cátalogo_servicios (id_servicio, nombre, cod_categoria) VALUES
   (10, 'Testing Automatizado','CAT11');
 
 -- Poblamiento de Empresa (10 filas)
-INSERT INTO Empresa (id_empresa, nombre_empresa, tamaño_empresa, telefono_empresa, web_corporativa, ranklng, cod_sector) VALUES
+INSERT INTO Empresa (id_empresa, nombre_empresa, tamano_empresa, telefono_empresa, web_corporativa, ranklng, cod_sector) VALUES
   (1,  'TechSol Ltd.       ', 150,  987654321, 'techsol.com',    5, 1),
   (2,  'SaludPlus S.A.     ',  80,  912345678, 'saludplus.pe',   4, 2),
   (3,  'EducaGlobal        ', 200,  976543210, 'educaglobal.edu',3, 3),
@@ -493,14 +493,14 @@ INSERT INTO Auditoría (id_auditoria, fecha_aud, id_cliente, id_requisitos) VALU
 
 -- Poblamiento de Validacion_detalles_tecnicos (8 filas)
 INSERT INTO Validacion_detalles_tecnicos (id_validacion_detalles, estado_validacion, fecha_validacion, id_comentario) VALUES
-  (1, 'OK', '2025-04-02', 1),
-  (2, 'RJ', '2025-04-03', 2),
-  (3, 'OK', '2025-04-04', 3),
-  (4, 'PD', '2025-04-05', 4),
-  (5, 'OK', '2025-04-06', 5),
-  (6, 'RJ', '2025-04-07', 6),
-  (7, 'OK', '2025-04-08', 7),
-  (8, 'PD', '2025-04-09', 8);
+  (1, 'AP', '2025-04-02', 1),
+  (2, 'PD', '2025-04-03', 2),
+  (3, 'PD', '2025-04-04', 3),
+  (4, 'AP', '2025-04-05', 4),
+  (5, 'PD', '2025-04-06', 5),
+  (6, 'PD', '2025-04-07', 6),
+  (7, 'PD', '2025-04-08', 7),
+  (8, 'AP', '2025-04-09', 8);
 
 -- Poblamiento de Solicitud (8 filas)
 INSERT INTO Solicitud (id_solicitud, descripción_solicitud, fecha_solicitud, fecha_firma, id_cliente) VALUES
@@ -570,25 +570,25 @@ INSERT INTO Termino (id_termino, descripcion_term, estado_term, id_contrato) VAL
 -- Poblamiento de Detalles_tecnicos (8 filas)
 INSERT INTO Detalles_tecnicos (id_detalle_tecnico, arquitectura, metodologia,integraciones, id_modulo, id_hito,id_validacion_detalles, id_documento) VALUES
   (1, 'Microservicios', 'AG', 'Auth,Users',    1, 1, 1, 1),
-  (2, 'Monolito',      'SD', 'DB,API',        2, 2, 2, 2),
-  (3, 'Layered',       'XP', 'Reporting',     3, 3, 3, 3),
-  (4, 'Serverless',    'CI', 'Notifications', 4, 4, 4, 4),
-  (5, 'Hexagonal',     'DS', 'Dashboard',     5, 5, 5, 5),
-  (6, 'CQRS',          'TS', 'Audit,Logs',    6, 6, 6, 6),
-  (7, 'Event-driven',  'PM', 'Queue,Cache',   7, 7, 7, 7),
-  (8, 'MVC',           'UX', 'UI,API',        8, 8, 8, 8);
+  (2, 'Monolito',      'CA', 'DB,API',        2, 2, 2, 2),
+  (3, 'Layered',       'HI', 'Reporting',     3, 3, 3, 3),
+  (4, 'Serverless',    'HI', 'Notifications', 4, 4, 4, 4),
+  (5, 'Hexagonal',     'CA', 'Dashboard',     5, 5, 5, 5),
+  (6, 'CQRS',          'AG', 'Audit,Logs',    6, 6, 6, 6),
+  (7, 'Event-driven',  'CA', 'Queue,Cache',   7, 7, 7, 7),
+  (8, 'MVC',           'AG', 'UI,API',        8, 8, 8, 8);
 
 -- Poblamiento de Propuesta (8 filas)
 INSERT INTO Propuesta (
-  id_propuesta, titulo_propuesta, descripcion_propuesta,fecha_propuesta, estado_prouesta, satisface_requisitos,id_detalle_tecnico, id_presupuesto, id_respuesta_, id_requisitos) VALUES
-  (1, 'Prop A', 'Descripción A', '2025-04-12', 'OK', 'SI', 1, 1, 1, 1),
-  (2, 'Prop B', 'Descripción B', '2025-04-13', 'RJ', 'NO', 2, 2, 2, 2),
-  (3, 'Prop C', 'Descripción C', '2025-04-14', 'OK', 'SI', 3, 3, 3, 3),
-  (4, 'Prop D', 'Descripción D', '2025-04-15', 'PD', 'NO', 4, 4, 4, 4),
-  (5, 'Prop E', 'Descripción E', '2025-04-16', 'OK', 'SI', 5, 5, 5, 5),
-  (6, 'Prop F', 'Descripción F', '2025-04-17', 'RJ', 'NO', 6, 6, 6, 6),
-  (7, 'Prop G', 'Descripción G', '2025-04-18', 'OK', 'SI', 7, 7, 7, 7),
-  (8, 'Prop H', 'Descripción H', '2025-04-19', 'PD', 'NO', 8, 8, 8, 8);
+  id_propuesta, titulo_propuesta, descripcion_propuesta,fecha_propuesta, estado_prouesta, etapa_propuesta ,id_detalle_tecnico, id_presupuesto, id_respuesta_, id_requisitos) VALUES
+  (1, 'Prop A', 'Descripción A', '2025-04-12', 'BT', 'I', 1, 1, 1, 1),
+  (2, 'Prop B', 'Descripción B', '2025-04-13', 'TA', 'T', 2, 2, 2, 2),
+  (3, 'Prop C', 'Descripción C', '2025-04-14', 'PA', 'C', 3, 3, 3, 3),
+  (4, 'Prop D', 'Descripción D', '2025-04-15', 'PR', 'L', 4, 4, 4, 4),
+  (5, 'Prop E', 'Descripción E', '2025-04-16', 'AC', 'F', 5, 5, 5, 5),
+  (6, 'Prop F', 'Descripción F', '2025-04-17', 'RC', 'I', 6, 6, 6, 6),
+  (7, 'Prop G', 'Descripción G', '2025-04-18', 'AR', 'T', 7, 7, 7, 7),
+  (8, 'Prop H', 'Descripción H', '2025-04-19', 'AR', 'C', 8, 8, 8, 8);
 
 -- Poblamiento de Gerente_Comercial (8 filas)
 INSERT INTO Gerente_Comercial (id_gerente_comercial, nombre_gerente, telefono_gerente, correo_gerente, id_usuario, id_validacion_presupuesto) VALUES
@@ -780,11 +780,11 @@ INSERT INTO Mensaje (
 
 -- Poblamiento de Reunion (5 filas)
 INSERT INTO Reunion (id_reunion, hora_inicio, hora_final, fecha_re,resumen_re, modalidad_re, lugar_re, estado_re,id_ejecutivo_comercial, id_cliente, id_propuesta) VALUES
-  (1, '09:00:00', '10:00:00', '2025-04-26', 'Kickoff proyecto A', 'P', 'Sala 1' , 'OK', 1, 1, 1),
-  (2, '11:00:00', '12:00:00', '2025-04-27', 'Revisión mockups'  , 'V', 'Sala 2' , 'OK', 2, 2, 2),
-  (3, '14:00:00', '15:00:00', '2025-04-28', 'API spec meeting'   , 'P', 'Sala 3' , 'PD', 3, 3, 3),
-  (4, '16:00:00', '17:00:00', '2025-04-29', 'Pruebas funcionales', 'V', 'Lab 1'  , 'OK', 4, 4, 4),
-  (5, '10:00:00', '11:00:00', '2025-04-30', 'Manual review'      , 'P', 'Lab 2'  , 'PD', 5, 5, 5);
+  (1, '09:00:00', '10:00:00', '2025-04-26', 'Kickoff proyecto A', 'P', 'Sala 1' , 'RE', 1, 1, 1),
+  (2, '11:00:00', '12:00:00', '2025-04-27', 'Revisión mockups'  , 'V', 'Sala 2' , 'RE', 2, 2, 2),
+  (3, '14:00:00', '15:00:00', '2025-04-28', 'API spec meeting'   , 'P', 'Sala 3' , 'PR', 3, 3, 3),
+  (4, '16:00:00', '17:00:00', '2025-04-29', 'Pruebas funcionales', 'V', 'Lab 1'  , 'CA', 4, 4, 4),
+  (5, '10:00:00', '11:00:00', '2025-04-30', 'Manual review'      , 'P', 'Lab 2'  , 'RE', 5, 5, 5);
 
 -- Poblamiento de Ajuste (5 filas)
 INSERT INTO Ajuste (id_ajuste, tipo_ajuste, descripcion_ajsute,estado_ajuste, id_termino, id_propuesta) VALUES
