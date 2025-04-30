@@ -160,71 +160,6 @@ INSERT INTO Satisfacción (id_satisfaccion, nombre_satisfaccion, puntuacion) VAL
   (11,'Buena            ',  6),
   (12,'Óptima           ', 10);
 
--- Poblamiento de Documento (10 filas)
-INSERT INTO Documento (id_documento, tipo_doc, fecha_generacion) VALUES
-  (1,  'Requisito',           '2025-03-01'),
-  (2,  'Contrato',            '2025-03-02'),
-  (3,  'Factura',             '2025-03-03'),
-  (4,  'Acta',                '2025-03-04'),
-  (5,  'Memorando',           '2025-03-05'),
-  (6,  'Especificacion',      '2025-03-06'),
-  (7,  'ManualUsuario',       '2025-03-07'),
-  (8,  'InformeTecnico',      '2025-03-08'),
-  (9,  'PlanProyecto',        '2025-03-09'),
-  (10, 'PropuestaServicio',   '2025-03-10');
-
--- Poblamiento de Estado_oc (10 filas)
-INSERT INTO Estado_oc (cod_estado_oc, nombre_estado_oc, descripción_estado_oc) VALUES
-  (1,  'Pendiente',   'Esperando aprobacion'),
-  (2,  'Aprobado',    'Compra aprobada'),
-  (3,  'Rechazado',   'Compra rechazada'),
-  (4,  'Enviado',     'Enviado al proveedor'),
-  (5,  'Recibido',    'Material recibido'),
-  (6,  'Procesado',   'Proceso interno'),
-  (7,  'Cancelado',   'Orden cancelada'),
-  (8,  'Facturado',   'Factura generada'),
-  (9,  'Pagado',      'Pago completado'),
-  (10, 'Devuelto',    'Material devuelto');
-
--- Poblamiento de Categoria_servicios (10 filas)
-INSERT INTO Categoria_servicios (cod_categoria, nombre_categoria) VALUES
-  ('CAT01', 'Consultoria'),
-  ('CAT02', 'Desarrollo'),
-  ('CAT03', 'Implementacion'),
-  ('CAT04', 'Soporte'),
-  ('CAT05', 'Mantenimiento'),
-  ('CAT06', 'Capacitacion'),
-  ('CAT07', 'Auditoria'),
-  ('CAT08', 'Integracion'),
-  ('CAT09', 'Migracion'),
-  ('CAT10', 'Optimizacion');
-
--- Poblamiento de Especialidad_equipo (10 filas)
-INSERT INTO Especialidad_equipo (cod_especialidad, nombre_especialidad) VALUES
-  (1,  'Hardware'),
-  (2,  'Software'),
-  (3,  'Redes'),
-  (4,  'Seguridad'),
-  (5,  'BaseDatos'),
-  (6,  'Infraestructura'),
-  (7,  'DevOps'),
-  (8,  'QA'),
-  (9,  'UIUX'),
-  (10, 'Movilidad');
-
--- Poblamiento de Satisfacción (10 filas)
-INSERT INTO Satisfacción (id_satisfaccion, nombre_satisfaccion, puntuacion) VALUES
-  (1,  'Muy Baja',    1),
-  (2,  'Baja',        2),
-  (3,  'Media Baja',  3),
-  (4,  'Neutral',     4),
-  (5,  'Media Alta',  5),
-  (6,  'Alta',        6),
-  (7,  'Muy Alta',    7),
-  (8,  'Excelente',   8),
-  (9,  'Regular',     4),
-  (10, 'Buena',       6);
-
 -- Poblamiento de Tipo_convocatoria (10 filas)
 INSERT INTO Tipo_convocatoria (cod_tipo_convocatoria, tipo_convocatoria) VALUES
   (1, 'Licitacion'),
@@ -263,7 +198,7 @@ INSERT INTO Sector_Mercado (cod_sector, nombre_sector) VALUES
   (8, 'Transporte'),
   (9, 'Construccion'),
   (10,'Agropecuario');
-
+  
 -- Poblamiento de Detalle_presupuesto (10 filas)
 INSERT INTO Detalle_presupuesto (id_detalle, concepto, costo_total, mes) VALUES
   (1,  'Desarrollo software',            15000.00, '2025-03-01'),
