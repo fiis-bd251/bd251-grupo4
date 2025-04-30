@@ -160,71 +160,6 @@ INSERT INTO Satisfacción (id_satisfaccion, nombre_satisfaccion, puntuacion) VAL
   (11,'Buena            ',  6),
   (12,'Óptima           ', 10);
 
--- Poblamiento de Documento (10 filas)
-INSERT INTO Documento (id_documento, tipo_doc, fecha_generacion) VALUES
-  (1,  'Requisito',           '2025-03-01'),
-  (2,  'Contrato',            '2025-03-02'),
-  (3,  'Factura',             '2025-03-03'),
-  (4,  'Acta',                '2025-03-04'),
-  (5,  'Memorando',           '2025-03-05'),
-  (6,  'Especificacion',      '2025-03-06'),
-  (7,  'ManualUsuario',       '2025-03-07'),
-  (8,  'InformeTecnico',      '2025-03-08'),
-  (9,  'PlanProyecto',        '2025-03-09'),
-  (10, 'PropuestaServicio',   '2025-03-10');
-
--- Poblamiento de Estado_oc (10 filas)
-INSERT INTO Estado_oc (cod_estado_oc, nombre_estado_oc, descripción_estado_oc) VALUES
-  (1,  'Pendiente',   'Esperando aprobacion'),
-  (2,  'Aprobado',    'Compra aprobada'),
-  (3,  'Rechazado',   'Compra rechazada'),
-  (4,  'Enviado',     'Enviado al proveedor'),
-  (5,  'Recibido',    'Material recibido'),
-  (6,  'Procesado',   'Proceso interno'),
-  (7,  'Cancelado',   'Orden cancelada'),
-  (8,  'Facturado',   'Factura generada'),
-  (9,  'Pagado',      'Pago completado'),
-  (10, 'Devuelto',    'Material devuelto');
-
--- Poblamiento de Categoria_servicios (10 filas)
-INSERT INTO Categoria_servicios (cod_categoria, nombre_categoria) VALUES
-  ('CAT01', 'Consultoria'),
-  ('CAT02', 'Desarrollo'),
-  ('CAT03', 'Implementacion'),
-  ('CAT04', 'Soporte'),
-  ('CAT05', 'Mantenimiento'),
-  ('CAT06', 'Capacitacion'),
-  ('CAT07', 'Auditoria'),
-  ('CAT08', 'Integracion'),
-  ('CAT09', 'Migracion'),
-  ('CAT10', 'Optimizacion');
-
--- Poblamiento de Especialidad_equipo (10 filas)
-INSERT INTO Especialidad_equipo (cod_especialidad, nombre_especialidad) VALUES
-  (1,  'Hardware'),
-  (2,  'Software'),
-  (3,  'Redes'),
-  (4,  'Seguridad'),
-  (5,  'BaseDatos'),
-  (6,  'Infraestructura'),
-  (7,  'DevOps'),
-  (8,  'QA'),
-  (9,  'UIUX'),
-  (10, 'Movilidad');
-
--- Poblamiento de Satisfacción (10 filas)
-INSERT INTO Satisfacción (id_satisfaccion, nombre_satisfaccion, puntuacion) VALUES
-  (1,  'Muy Baja',    1),
-  (2,  'Baja',        2),
-  (3,  'Media Baja',  3),
-  (4,  'Neutral',     4),
-  (5,  'Media Alta',  5),
-  (6,  'Alta',        6),
-  (7,  'Muy Alta',    7),
-  (8,  'Excelente',   8),
-  (9,  'Regular',     4),
-  (10, 'Buena',       6);
-
 -- Poblamiento de Tipo_convocatoria (10 filas)
 INSERT INTO Tipo_convocatoria (cod_tipo_convocatoria, tipo_convocatoria) VALUES
   (1, 'Licitacion'),
@@ -263,7 +198,7 @@ INSERT INTO Sector_Mercado (cod_sector, nombre_sector) VALUES
   (8, 'Transporte'),
   (9, 'Construccion'),
   (10,'Agropecuario');
-
+  
 -- Poblamiento de Detalle_presupuesto (10 filas)
 INSERT INTO Detalle_presupuesto (id_detalle, concepto, costo_total, mes) VALUES
   (1,  'Desarrollo software',            15000.00, '2025-03-01'),
@@ -417,23 +352,22 @@ INSERT INTO Empresa (id_empresa, nombre_empresa, tamaño_empresa, telefono_empre
   (9,  'Constructiva       ',  90,  910987654, 'constructiva.com',9, 9),
   (10, 'AgroInnovacion     ', 140,  901234567, 'agroinnov.pe',   1, 10);
 
--- Poblamiento de Solicitud_web (10 filas)
+-- Poblamiento de Solicitud_web (10 filas) con estados válidos
 INSERT INTO Solicitud_web (
   id_solicitud_web, nombre_solicitante, apellido_solicitante,
   telefono_solicitante, correo_solicitante, fecha_envio,
   estado_solicitud, id_empresa
 ) VALUES
-  (1,  'Carlos',   'Ramirez',  987650001, 'carlossol.com',   '2025-04-01', 'PENDIENTE', 1),
-  (2,  'Ana',      'Vargas',   987650002, 'anludplus.pe',     '2025-04-02', 'APROBADO',  2),
-  (3,  'Luis',     'Torres',   987650003, 'luisaglobal.edu', '2025-04-03', 'PENDIENTE', 3),
-  (4,  'Sofía',    'Gonzales', 987650004, 'sofiancorp.com',  '2025-04-04', 'RECHAZADO', 4),
-  (5,  'Miguel',   'Herrera',  987650005, 'miguenufacto.org', '2025-04-05', 'PENDIENTE', 5),
-  (6,  'Elena',    'Flores',   987650006, 'elenailmart.pe',  '2025-04-06', 'APROBADO',  6),
-  (7,  'David',    'Martínez', 987650007, 'david@rde.com',    '2025-04-07', 'PENDIENTE', 7),
-  (8,  'Laura',    'Reyes',    987650008, 'lauraslog.pe',    '2025-04-08', 'APROBADO',  8),
-  (9,  'Jorge',    'Salinas',  987650009, 'jorgstructiva.com','2025-04-09','RECHAZADO',9),
-  (10, 'María',    'Paredes',  987650010, 'marioinnov.pe',   '2025-04-10', 'PENDIENTE',10);
-
+  (1,  'Carlos',   'Ramirez',  987650001, 'carlossol.com',   '2025-04-01', 'pendiente', 1),
+  (2,  'Ana',      'Vargas',   987650002, 'anludplus.pe',     '2025-04-02', 'contestada',  2),
+  (3,  'Luis',     'Torres',   987650003, 'luisaglobal.edu', '2025-04-03', 'pendiente', 3),
+  (4,  'Sofía',    'Gonzales', 987650004, 'sofiancorp.com',  '2025-04-04', 'revisada', 4),
+  (5,  'Miguel',   'Herrera',  987650005, 'miguenufacto.org', '2025-04-05', 'pendiente', 5),
+  (6,  'Elena',    'Flores',   987650006, 'elenailmart.pe',  '2025-04-06', 'contestada',  6),
+  (7,  'David',    'Martínez', 987650007, 'david@rde.com',    '2025-04-07', 'pendiente', 7),
+  (8,  'Laura',    'Reyes',    987650008, 'lauraslog.pe',    '2025-04-08', 'contestada',  8),
+  (9,  'Jorge',    'Salinas',  987650009, 'jorgstructiva.com','2025-04-09', 'revisada', 9),
+  (10, 'María',    'Paredes',  987650010, 'marioinnov.pe',   '2025-04-10', 'pendiente', 10);
 
 -- Poblamiento de Asignación_recurso (10 filas)
 INSERT INTO Asignación_recurso (
@@ -590,16 +524,26 @@ INSERT INTO Contrato (cod_contrato, nombre_contrato, monto, contenido,condicione
   (1007, 'Contrato G', 68000.00, 'Contenido G', 'Condiciones G', 7, '2025-04-22', 7, 'SOL007'),
   (1008, 'Contrato H', 72000.00, 'Contenido H', 'Condiciones H', 8, '2025-04-23', 8, 'SOL008');
 
--- Poblamiento de proyecto (8 filas)
-INSERT INTO proyecto (cod_proyecto, nombre_proyecto, descripción_proyecto,presupuesto, estado_proyecto, fecha_inicio, fecha_fin,id_solicitud, cod_sector) VALUES
-  (1, 'Proyecto A', 'Portal interno',     50000.00, 1, '2025-04-16', '2025-06-16', 'SOL001', 1),
-  (2, 'Proyecto B', 'e-Commerce',         75000.00, 2, '2025-04-17', '2025-07-17', 'SOL002', 2),
-  (3, 'Proyecto C', 'Data Warehouse',     60000.00, 1, '2025-04-18', '2025-08-18', 'SOL003', 3),
-  (4, 'Proyecto D', 'API REST',           82000.00, 3, '2025-04-19', '2025-09-19', 'SOL004', 4),
-  (5, 'Proyecto E', 'Training App',       45000.00, 2, '2025-04-20', '2025-05-20', 'SOL005', 5),
-  (6, 'Proyecto F', 'Security Audit',     90000.00, 1, '2025-04-21', '2025-07-21', 'SOL006', 6),
-  (7, 'Proyecto G', 'SQL Tuning',         68000.00, 2, '2025-04-22', '2025-06-22', 'SOL007', 7),
-  (8, 'Proyecto H', 'Prod Deployment',    72000.00, 3, '2025-04-23', '2025-05-23', 'SOL008', 8);
+-- Poblamiento de proyecto (8 filas) con estados válidos
+INSERT INTO proyecto (
+  cod_proyecto, 
+  nombre_proyecto, 
+  descripción_proyecto,
+  presupuesto, 
+  estado_proyecto, 
+  fecha_inicio, 
+  fecha_fin,
+  id_solicitud, 
+  cod_sector
+) VALUES
+  (1, 'Proyecto A', 'Portal interno',     50000.00, 'Planificado', '2025-04-16', '2025-06-16', 'SOL001', 1),
+  (2, 'Proyecto B', 'e-Commerce',         75000.00, 'En Ejecución', '2025-04-17', '2025-07-17', 'SOL002', 2),
+  (3, 'Proyecto C', 'Data Warehouse',     60000.00, 'Planificado', '2025-04-18', '2025-08-18', 'SOL003', 3),
+  (4, 'Proyecto D', 'API REST',           82000.00, 'Suspendido', '2025-04-19', '2025-09-19', 'SOL004', 4),
+  (5, 'Proyecto E', 'Training App',       45000.00, 'En Ejecución', '2025-04-20', '2025-05-20', 'SOL005', 5),
+  (6, 'Proyecto F', 'Security Audit',     90000.00, 'Planificado', '2025-04-21', '2025-07-21', 'SOL006', 6),
+  (7, 'Proyecto G', 'SQL Tuning',         68000.00, 'En Ejecución', '2025-04-22', '2025-06-22', 'SOL007', 7),
+  (8, 'Proyecto H', 'Prod Deployment',    72000.00, 'Suspendido', '2025-04-23', '2025-05-23', 'SOL008', 8);
 
 -- Poblamiento de Proyecto_servicio (8 filas)
 INSERT INTO Proyecto_servicio (id_servicio, cod_proyecto) VALUES
@@ -778,13 +722,21 @@ INSERT INTO Dolor_equipo_tecnico (fecha_asignacion, id_dolor, id_equipo) VALUES
   ('2025-04-14', 4, 'EQ004'),
   ('2025-04-15', 5, 'EQ005');
 
--- Poblamiento de Encargo_comercial (5 filas)
-INSERT INTO Encargo_comercial (id_encargo, nombre_encargo, fecha_asignacion, estado_encargo, fecha_termino, id_responsable, id_asignador) VALUES
-  (1, 'EncargoA', '2025-04-11', 'Pendiente', '2025-04-20', 1, 1),
-  (2, 'EncargoB', '2025-04-12', 'Completado','2025-04-22', 2, 2),
-  (3, 'EncargoC', '2025-04-13', 'Pendiente', '2025-04-25', 3, 3),
-  (4, 'EncargoD', '2025-04-14', 'Completado','2025-04-28', 4, 4),
-  (5, 'EncargoE', '2025-04-15', 'Pendiente', '2025-05-01', 5, 5);
+-- Poblamiento de Encargo_comercial (5 filas) con estados válidos
+INSERT INTO Encargo_comercial (
+  id_encargo, 
+  nombre_encargo, 
+  fecha_asignacion, 
+  estado_encargo, 
+  fecha_termino, 
+  id_responsable, 
+  id_asignador
+) VALUES
+  (1, 'EncargoA', '2025-04-11', 'pendiente', '2025-04-20', 1, 1),
+  (2, 'EncargoB', '2025-04-12', 'completado', '2025-04-22', 2, 2),
+  (3, 'EncargoC', '2025-04-13', 'pendiente', '2025-04-25', 3, 3),
+  (4, 'EncargoD', '2025-04-14', 'completado', '2025-04-28', 4, 4),
+  (5, 'EncargoE', '2025-04-15', 'pendiente', '2025-05-01', 5, 5);
 
 -- Poblamiento de Encargo_proyecto (5 filas)
 INSERT INTO Encargo_proyecto (id_encargo, cod_proyecto) VALUES
