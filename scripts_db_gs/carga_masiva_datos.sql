@@ -15,3 +15,21 @@ WITH (
   HEADER true,
   DELIMITER ','
 );
+
+-- Poblamiento masivo de la tabla  contacto
+COPY contacto (
+  id_contacto,
+  nombre_contacto,
+  email_contacto,
+  telefono_contacto,
+  cargo_contacto,
+  origen,
+  id_empresa,
+  id_ejecutivo_comercial
+)
+FROM 'C:\\Users\\usuario\\Desktop\\UNI-FIIS\\2025-I\\DBD\\contactos.csv'
+WITH (
+  FORMAT csv,
+  HEADER true,
+  DELIMITER ','
+);
