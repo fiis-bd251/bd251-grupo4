@@ -649,14 +649,15 @@ DROP TABLE IF EXISTS Dolor CASCADE;
 CREATE TABLE Dolor (
     id_dolor INT NOT NULL,
     nombre_dolor CHAR(15) NOT NULL,
-    industria VARCHAR(15) NOT NULL,
+    cod_sector INT NOT NULL,
     id_cliente INT NOT NULL,
     id_ejecutivo_comercial INT NOT NULL,
     id_visita INT NOT NULL,
     PRIMARY KEY (id_dolor),
     FOREIGN KEY (id_cliente) REFERENCES Cliente (id_cliente),
     FOREIGN KEY (id_ejecutivo_comercial) REFERENCES Ejecutivo_Comercial (id_ejecutivo_comercial),
-    FOREIGN KEY (id_visita) REFERENCES Visita (id_visita)
+    FOREIGN KEY (id_visita) REFERENCES Visita (id_visita),
+	FOREIGN KEY (cod_sector) REFERENCES Sector_Mercado (cod_sector)
 );
 
 DROP TABLE IF EXISTS Convocatoria CASCADE;
