@@ -506,15 +506,26 @@ CREATE TABLE Propuesta (
     FOREIGN KEY (id_requisitos) REFERENCES Requisitos (id_requisitos)
 );
 
+DROP TABLE IF EXISTS Solicitud_estado CASCADE;
+CREATE TABLE Solicitud_estado
+(
+  cod_estado_solicitud INT NOT NULL,
+  nombre_estado_solicitud CHAR(10) NOT NULL,
+  PRIMARY KEY (cod_estado_solicitud)
+);
+
 DROP TABLE IF EXISTS Solicitud CASCADE;
-CREATE TABLE Solicitud (
-    id_solicitud VARCHAR(50) NOT NULL,
-    descripción_solicitud VARCHAR(100) NOT NULL,
-    fecha_solicitud DATE NOT NULL,
-    fecha_firma DATE NOT NULL,
-    id_cliente INT NOT NULL,
-    PRIMARY KEY (id_solicitud),
-    FOREIGN KEY (id_cliente) REFERENCES Cliente (id_cliente)
+CREATE TABLE Solicitud
+(
+  id_solicitud VARCHAR(20) NOT NULL,
+  descripción_solicitud VARCHAR(100) NOT NULL,
+  fecha_solicitud DATE NOT NULL,
+  fecha_firma DATE NOT NULL,
+  id_cliente INT NOT NULL,
+  cod_estado_solicitud INT NOT NULL,
+  PRIMARY KEY (id_solicitud),
+  FOREIGN KEY (id_cliente) REFERENCES Cliente(id_cliente),
+  FOREIGN KEY (cod_estado_solicitud) REFERENCES Solicitud_estado(cod_estado_solicitud)
 );
 
 DROP TABLE IF EXISTS Contrato CASCADE;
@@ -649,14 +660,15 @@ DROP TABLE IF EXISTS Dolor CASCADE;
 CREATE TABLE Dolor (
     id_dolor INT NOT NULL,
     nombre_dolor CHAR(15) NOT NULL,
-    industria VARCHAR(15) NOT NULL,
+    cod_sector INT NOT NULL,
     id_cliente INT NOT NULL,
     id_ejecutivo_comercial INT NOT NULL,
     id_visita INT NOT NULL,
     PRIMARY KEY (id_dolor),
     FOREIGN KEY (id_cliente) REFERENCES Cliente (id_cliente),
     FOREIGN KEY (id_ejecutivo_comercial) REFERENCES Ejecutivo_Comercial (id_ejecutivo_comercial),
-    FOREIGN KEY (id_visita) REFERENCES Visita (id_visita)
+    FOREIGN KEY (id_visita) REFERENCES Visita (id_visita),
+	FOREIGN KEY (cod_sector) REFERENCES Sector_Mercado (cod_sector)
 );
 
 DROP TABLE IF EXISTS Convocatoria CASCADE;
