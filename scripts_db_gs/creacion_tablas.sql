@@ -1,6 +1,5 @@
 DROP TABLE IF EXISTS Rol CASCADE;
-CREATE TABLE Rol
- (
+CREATE TABLE Rol (
     id_rol INT NOT NULL,
     nombre_rol CHAR(20) NOT NULL,
     descripción VARCHAR(30) NOT NULL,
@@ -8,8 +7,7 @@ CREATE TABLE Rol
 );
 
 DROP TABLE IF EXISTS Usuario CASCADE;
-CREATE TABLE Usuario
- (
+CREATE TABLE Usuario (
     id_usuario INT NOT NULL,
     contraseña CHAR(15) NOT NULL,
     correo VARCHAR(40) NOT NULL,
@@ -20,8 +18,7 @@ CREATE TABLE Usuario
 );
 
 DROP TABLE IF EXISTS Version_contrato CASCADE;
-CREATE TABLE Version_contrato
- (
+CREATE TABLE Version_contrato (
     id_version INT NOT NULL,
     version CHAR(5) NOT NULL,
     fecha_version DATE NOT NULL,
@@ -30,8 +27,7 @@ CREATE TABLE Version_contrato
 );
 
 DROP TABLE IF EXISTS Comentario CASCADE;
-CREATE TABLE Comentario
- (
+CREATE TABLE Comentario (
     id_comentario INT NOT NULL,
     fecha_comentario DATE NOT NULL,
     texto_comentario TEXT NOT NULL,
@@ -46,8 +42,7 @@ CREATE TABLE Comentario
 );
 
 DROP TABLE IF EXISTS Documento CASCADE;
-CREATE TABLE Documento
- (
+CREATE TABLE Documento (
     id_documento INT NOT NULL,
     tipo_doc CHAR(20) NOT NULL,
     fecha_generacion DATE NOT NULL,
@@ -55,8 +50,7 @@ CREATE TABLE Documento
 );
 
 DROP TABLE IF EXISTS Estado_oc CASCADE;
-CREATE TABLE Estado_oc
- (
+CREATE TABLE Estado_oc (
     cod_estado_oc INT NOT NULL,
     nombre_estado_oc CHAR(10) NOT NULL,
     descripción_estado_oc VARCHAR(20) NOT NULL,
@@ -64,24 +58,21 @@ CREATE TABLE Estado_oc
 );
 
 DROP TABLE IF EXISTS Categoria_servicios CASCADE;
-CREATE TABLE Categoria_servicios
- (
+CREATE TABLE Categoria_servicios (
     cod_categoria VARCHAR(10) NOT NULL,
     nombre_categoria CHAR(15) NOT NULL,
     PRIMARY KEY (cod_categoria)
 );
 
 DROP TABLE IF EXISTS Especialidad_equipo CASCADE;
-CREATE TABLE Especialidad_equipo
- (
+CREATE TABLE Especialidad_equipo (
     cod_especialidad INT NOT NULL,
     nombre_especialidad CHAR(15) NOT NULL,
     PRIMARY KEY (cod_especialidad)
 );
 
-DROP TABLE IF EXISTS Satisfacci CASCADE;
-CREATE TABLE Satisfacci
-ón (
+DROP TABLE IF EXISTS Satisfacción CASCADE;
+CREATE TABLE Satisfacción (
     id_satisfaccion INT NOT NULL,
     nombre_satisfaccion CHAR(20) NOT NULL,
     puntuacion INT NOT NULL,
@@ -89,16 +80,14 @@ CREATE TABLE Satisfacci
 );
 
 DROP TABLE IF EXISTS Tipo_convocatoria CASCADE;
-CREATE TABLE Tipo_convocatoria
- (
+CREATE TABLE Tipo_convocatoria (
     cod_tipo_convocatoria INT NOT NULL,
     tipo_convocatoria CHAR(10) NOT NULL,
     PRIMARY KEY (cod_tipo_convocatoria)
 );
 
 DROP TABLE IF EXISTS Validacion_presupuesto CASCADE;
-CREATE TABLE Validacion_presupuesto
- (
+CREATE TABLE Validacion_presupuesto (
     id_validacion_presupuesto INT NOT NULL,
     fecha_validacion DATE NOT NULL,
     estado_validacion CHAR(2) NOT NULL,
@@ -108,16 +97,14 @@ CREATE TABLE Validacion_presupuesto
 );
 
 DROP TABLE IF EXISTS Sector_Mercado CASCADE;
-CREATE TABLE Sector_Mercado
- (
+CREATE TABLE Sector_Mercado (
     cod_sector INT NOT NULL,
     nombre_sector CHAR(15) NOT NULL,
     PRIMARY KEY (cod_sector)
 );
 
 DROP TABLE IF EXISTS Detalle_presupuesto CASCADE;
-CREATE TABLE Detalle_presupuesto
- (
+CREATE TABLE Detalle_presupuesto (
     id_detalle INT NOT NULL,
     concepto VARCHAR(100) NOT NULL,
     costo_total FLOAT NOT NULL,
@@ -126,8 +113,7 @@ CREATE TABLE Detalle_presupuesto
 );
 
 DROP TABLE IF EXISTS Recurso_asignado CASCADE;
-CREATE TABLE Recurso_asignado
- (
+CREATE TABLE Recurso_asignado (
     id_recurso INT NOT NULL,
     costo_total FLOAT NOT NULL,
     meses INT NOT NULL,
@@ -138,8 +124,7 @@ CREATE TABLE Recurso_asignado
 );
 
 DROP TABLE IF EXISTS Modulo CASCADE;
-CREATE TABLE Modulo
- (
+CREATE TABLE Modulo (
     id_modulo INT NOT NULL,
     nombre CHAR(50) NOT NULL,
     descripcion VARCHAR(100) NOT NULL,
@@ -150,8 +135,7 @@ CREATE TABLE Modulo
 );
 
 DROP TABLE IF EXISTS Hito CASCADE;
-CREATE TABLE Hito
- (
+CREATE TABLE Hito (
     id_hito INT NOT NULL,
     nombre VARCHAR(50) NOT NULL,
     descripcion VARCHAR(10) NOT NULL,
@@ -161,8 +145,7 @@ CREATE TABLE Hito
 );
 
 DROP TABLE IF EXISTS Presupuesto_propuesta CASCADE;
-CREATE TABLE Presupuesto_propuesta
- (
+CREATE TABLE Presupuesto_propuesta (
     id_presupuesto INT NOT NULL,
     costo_total FLOAT NOT NULL,
     fecha_elaboracion DATE NOT NULL,
@@ -178,8 +161,7 @@ CREATE TABLE Presupuesto_propuesta
 );
 
 DROP TABLE IF EXISTS Respuesta_cliente CASCADE;
-CREATE TABLE Respuesta_cliente
- (
+CREATE TABLE Respuesta_cliente (
     id_respuesta_ INT NOT NULL,
     tipo_respuesta INT NOT NULL,
     comentarios VARCHAR(500) NOT NULL,
@@ -188,8 +170,7 @@ CREATE TABLE Respuesta_cliente
 );
 
 DROP TABLE IF EXISTS Alternativas CASCADE;
-CREATE TABLE Alternativas
- (
+CREATE TABLE Alternativas (
     id_alternativa INT NOT NULL,
     tipo_alternativa CHAR(20) NOT NULL,
     descripcion_alternativa VARCHAR(100) NOT NULL,
@@ -201,8 +182,7 @@ CREATE TABLE Alternativas
 );
 
 DROP TABLE IF EXISTS Opciones_comerciales CASCADE;
-CREATE TABLE Opciones_comerciales
- (
+CREATE TABLE Opciones_comerciales (
     id_opciones_comerciales INT NOT NULL,
     tipo_opcion CHAR(8) NOT NULL,
     detalle_opcion VARCHAR(20) NOT NULL,
@@ -214,8 +194,7 @@ CREATE TABLE Opciones_comerciales
 );
 
 DROP TABLE IF EXISTS Personal_asignado CASCADE;
-CREATE TABLE Personal_asignado
- (
+CREATE TABLE Personal_asignado (
     id_personal_asignado INT NOT NULL,
     nombre_personal CHAR(20) NOT NULL,
     telefono__personal INT NOT NULL,
@@ -226,9 +205,8 @@ CREATE TABLE Personal_asignado
     FOREIGN KEY (id_rol) REFERENCES Rol (id_rol)
 );
 
-DROP TABLE IF EXISTS C CASCADE;
-CREATE TABLE C
-átalogo_servicios (
+DROP TABLE IF EXISTS Cátalogo_servicios CASCADE;
+CREATE TABLE Cátalogo_servicios (
     id_servicio INT NOT NULL,
     nombre CHAR(20) NOT NULL,
     cod_categoria VARCHAR(10) NOT NULL,
@@ -237,8 +215,7 @@ CREATE TABLE C
 );
 
 DROP TABLE IF EXISTS Empresa CASCADE;
-CREATE TABLE Empresa
- (
+CREATE TABLE Empresa (
     id_empresa INT NOT NULL,
     nombre_empresa CHAR(20) NOT NULL,
     tamaño_empresa INT NOT NULL,
@@ -251,8 +228,7 @@ CREATE TABLE Empresa
 );
 
 DROP TABLE IF EXISTS Solicitud_web CASCADE;
-CREATE TABLE Solicitud_web
- (
+CREATE TABLE Solicitud_web (
     id_solicitud_web INT NOT NULL,
     nombre_solicitante CHAR(20) NOT NULL,
     apellido_solicitante CHAR(20) NOT NULL,
@@ -265,9 +241,8 @@ CREATE TABLE Solicitud_web
     FOREIGN KEY (id_empresa) REFERENCES Empresa (id_empresa)
 );
 
-DROP TABLE IF EXISTS Asignaci CASCADE;
-CREATE TABLE Asignaci
-ón_recurso (
+DROP TABLE IF EXISTS Asignación_recurso CASCADE;
+CREATE TABLE Asignación_recurso (
     id_asignacion_r INT NOT NULL,
     descripcion VARCHAR(100) NOT NULL,
     fecha_asignacion DATE NOT NULL,
@@ -278,8 +253,7 @@ CREATE TABLE Asignaci
 );
 
 DROP TABLE IF EXISTS Cliente CASCADE;
-CREATE TABLE Cliente
- (
+CREATE TABLE Cliente (
     id_cliente INT NOT NULL,
     direccion VARCHAR(20) NOT NULL,
     nombre CHAR(10) NOT NULL,
@@ -298,8 +272,7 @@ CREATE TABLE Cliente
 );
 
 DROP TABLE IF EXISTS Requisitos CASCADE;
-CREATE TABLE Requisitos
- (
+CREATE TABLE Requisitos (
     id_requisitos INT NOT NULL,
     descripcion_r VARCHAR(20) NOT NULL,
     prioridad_requisito INT NOT NULL,
@@ -312,9 +285,8 @@ CREATE TABLE Requisitos
     FOREIGN KEY (id_cliente) REFERENCES Cliente (id_cliente)
 );
 
-DROP TABLE IF EXISTS Revisi CASCADE;
-CREATE TABLE Revisi
-ón_de_requisitos (
+DROP TABLE IF EXISTS Revisión_de_requisitos CASCADE;
+CREATE TABLE Revisión_de_requisitos (
     id_revision_r INT NOT NULL,
     fecha_revision_requisitos DATE NOT NULL,
     medio_de_aclaracion VARCHAR(15) NOT NULL,
@@ -328,8 +300,7 @@ CREATE TABLE Revisi
 );
 
 DROP TABLE IF EXISTS Trazabilidad CASCADE;
-CREATE TABLE Trazabilidad
- (
+CREATE TABLE Trazabilidad (
     id_trazabilidad INT NOT NULL,
     tipo_evento INT NOT NULL,
     fecha_evento DATE NOT NULL,
@@ -342,8 +313,7 @@ CREATE TABLE Trazabilidad
 );
 
 DROP TABLE IF EXISTS Viabilidad_tecnica_requisitos CASCADE;
-CREATE TABLE Viabilidad_tecnica_requisitos
- (
+CREATE TABLE Viabilidad_tecnica_requisitos (
     id_viabilidad_r INT NOT NULL,
     notas VARCHAR(80) NOT NULL,
     fecha_evaluacion DATE NOT NULL,
@@ -360,8 +330,7 @@ CREATE TABLE Viabilidad_tecnica_requisitos
 );
 
 DROP TABLE IF EXISTS Evaluacion_financiera_requisitos CASCADE;
-CREATE TABLE Evaluacion_financiera_requisitos
- (
+CREATE TABLE Evaluacion_financiera_requisitos (
     id_evaluacion_f INT NOT NULL,
     ajuste_presupuestal_necesario VARCHAR(20) NOT NULL,
     costo_estimado_total FLOAT NOT NULL,
@@ -376,9 +345,8 @@ CREATE TABLE Evaluacion_financiera_requisitos
     FOREIGN KEY (id_documento) REFERENCES Documento (id_documento)
 );
 
-DROP TABLE IF EXISTS Notificaci CASCADE;
-CREATE TABLE Notificaci
-ón (
+DROP TABLE IF EXISTS Notificación CASCADE;
+CREATE TABLE Notificación (
     id_notificacion INT NOT NULL,
     mensaje TEXT NOT NULL,
     fecha_envio DATE NOT NULL,
@@ -390,9 +358,8 @@ CREATE TABLE Notificaci
     FOREIGN KEY (id_requisitos) REFERENCES Requisitos (id_requisitos)
 );
 
-DROP TABLE IF EXISTS Auditor CASCADE;
-CREATE TABLE Auditor
-ía (
+DROP TABLE IF EXISTS Auditoría CASCADE;
+CREATE TABLE Auditoría (
     id_auditoria INT NOT NULL,
     fecha_aud DATE NOT NULL,
     id_cliente INT NOT NULL,
@@ -403,8 +370,7 @@ CREATE TABLE Auditor
 );
 
 DROP TABLE IF EXISTS Validacion_detalles_tecnicos CASCADE;
-CREATE TABLE Validacion_detalles_tecnicos
- (
+CREATE TABLE Validacion_detalles_tecnicos (
     id_validacion_detalles INT NOT NULL,
     estado_validacion CHAR(2) NOT NULL,
     fecha_validacion DATE NOT NULL,
@@ -414,8 +380,7 @@ CREATE TABLE Validacion_detalles_tecnicos
 );
 
 DROP TABLE IF EXISTS Detalles_tecnicos CASCADE;
-CREATE TABLE Detalles_tecnicos
- (
+CREATE TABLE Detalles_tecnicos (
     id_detalle_tecnico INT NOT NULL,
     arquitectura VARCHAR(50) NOT NULL,
     metodologia CHAR(2) NOT NULL,
@@ -432,8 +397,7 @@ CREATE TABLE Detalles_tecnicos
 );
 
 DROP TABLE IF EXISTS Propuesta CASCADE;
-CREATE TABLE Propuesta
- (
+CREATE TABLE Propuesta (
     id_propuesta INT NOT NULL,
     titulo_propuesta VARCHAR(50) NOT NULL,
     descripcion_propuesta VARCHAR(100) NOT NULL,
@@ -452,8 +416,7 @@ CREATE TABLE Propuesta
 );
 
 DROP TABLE IF EXISTS Solicitud CASCADE;
-CREATE TABLE Solicitud
- (
+CREATE TABLE Solicitud (
     id_solicitud VARCHAR(20) NOT NULL,
     descripción_solicitud VARCHAR(100) NOT NULL,
     fecha_solicitud DATE NOT NULL,
@@ -464,8 +427,7 @@ CREATE TABLE Solicitud
 );
 
 DROP TABLE IF EXISTS Contrato CASCADE;
-CREATE TABLE Contrato
- (
+CREATE TABLE Contrato (
     cod_contrato INT NOT NULL,
     nombre_contrato CHAR(20) NOT NULL,
     monto FLOAT NOT NULL,
@@ -481,8 +443,7 @@ CREATE TABLE Contrato
 );
 
 DROP TABLE IF EXISTS proyecto CASCADE;
-CREATE TABLE proyecto
- (
+CREATE TABLE proyecto (
     cod_proyecto INT NOT NULL,
     nombre_proyecto CHAR(20) NOT NULL,
     descripción_proyecto VARCHAR(50) NOT NULL,
@@ -498,8 +459,7 @@ CREATE TABLE proyecto
 );
 
 DROP TABLE IF EXISTS Proyecto_servicio CASCADE;
-CREATE TABLE Proyecto_servicio
- (
+CREATE TABLE Proyecto_servicio (
     id_servicio INT NOT NULL,
     cod_proyecto INT NOT NULL,
     FOREIGN KEY (id_servicio) REFERENCES Cátalogo_servicios (id_servicio),
@@ -507,8 +467,7 @@ CREATE TABLE Proyecto_servicio
 );
 
 DROP TABLE IF EXISTS Termino CASCADE;
-CREATE TABLE Termino
- (
+CREATE TABLE Termino (
     id_termino INT NOT NULL,
     descripcion_term TEXT NOT NULL,
     estado_term CHAR(8) NOT NULL,
@@ -518,8 +477,7 @@ CREATE TABLE Termino
 );
 
 DROP TABLE IF EXISTS Gerente_Comercial CASCADE;
-CREATE TABLE Gerente_Comercial
- (
+CREATE TABLE Gerente_Comercial (
     id_gerente_comercial INT NOT NULL,
     nombre_gerente CHAR(20) NOT NULL,
     telefono_gerente INT NOT NULL,
@@ -532,8 +490,7 @@ CREATE TABLE Gerente_Comercial
 );
 
 DROP TABLE IF EXISTS Ejecutivo_Comercial CASCADE;
-CREATE TABLE Ejecutivo_Comercial
- (
+CREATE TABLE Ejecutivo_Comercial (
     id_ejecutivo_comercial INT NOT NULL,
     nombre_ejecutivo CHAR(15) NOT NULL,
     telefono_ejecutivo INT NOT NULL,
@@ -546,8 +503,7 @@ CREATE TABLE Ejecutivo_Comercial
 );
 
 DROP TABLE IF EXISTS Contacto CASCADE;
-CREATE TABLE Contacto
- (
+CREATE TABLE Contacto (
     id_contacto INT NOT NULL,
     nombre_contacto CHAR(15) NOT NULL,
     email_contacto VARCHAR(20) NOT NULL,
@@ -562,8 +518,7 @@ CREATE TABLE Contacto
 );
 
 DROP TABLE IF EXISTS Visita CASCADE;
-CREATE TABLE Visita
- (
+CREATE TABLE Visita (
     id_visita INT NOT NULL,
     fecha_hora_visita DATE NOT NULL,
     notas_visita VARCHAR(20) NOT NULL,
@@ -577,8 +532,7 @@ CREATE TABLE Visita
 );
 
 DROP TABLE IF EXISTS Agenda_ec CASCADE;
-CREATE TABLE Agenda_ec
- (
+CREATE TABLE Agenda_ec (
     agenda_ec CHAR(10) NOT NULL,
     fecha_dispo DATE NOT NULL,
     inicio_dispo TIME NOT NULL,
@@ -590,8 +544,7 @@ CREATE TABLE Agenda_ec
 );
 
 DROP TABLE IF EXISTS Dolor CASCADE;
-CREATE TABLE Dolor
- (
+CREATE TABLE Dolor (
     id_dolor INT NOT NULL,
     nombre_dolor CHAR(15) NOT NULL,
     industria VARCHAR(15) NOT NULL,
@@ -605,8 +558,7 @@ CREATE TABLE Dolor
 );
 
 DROP TABLE IF EXISTS Convocatoria CASCADE;
-CREATE TABLE Convocatoria
- (
+CREATE TABLE Convocatoria (
     id_convocatoria INT NOT NULL,
     fecha_publicacon DATE NOT NULL,
     fecha_limite DATE NOT NULL,
@@ -619,8 +571,7 @@ CREATE TABLE Convocatoria
 );
 
 DROP TABLE IF EXISTS Viabilidad_tecnica CASCADE;
-CREATE TABLE Viabilidad_tecnica
- (
+CREATE TABLE Viabilidad_tecnica (
     id_viabilidad_tecnica INT NOT NULL,
     hay_experiencia BOOLEAN NOT NULL,
     es_viable BOOLEAN NOT NULL,
@@ -630,9 +581,8 @@ CREATE TABLE Viabilidad_tecnica
     FOREIGN KEY (id_dolor) REFERENCES Dolor (id_dolor)
 );
 
-DROP TABLE IF EXISTS Equipo_t CASCADE;
-CREATE TABLE Equipo_t
-écnico (
+DROP TABLE IF EXISTS Equipo_técnico CASCADE;
+CREATE TABLE Equipo_técnico (
     id_equipo VARCHAR(20) NOT NULL,
     nombre_equipo_tecnico CHAR(20) NOT NULL,
     capacidad INT NOT NULL,
@@ -646,8 +596,7 @@ CREATE TABLE Equipo_t
 );
 
 DROP TABLE IF EXISTS Partner CASCADE;
-CREATE TABLE Partner
- (
+CREATE TABLE Partner (
     id_partner INT NOT NULL,
     nombre_contacto CHAR(25) NOT NULL,
     telefono_contacto INT NOT NULL,
@@ -659,8 +608,7 @@ CREATE TABLE Partner
 );
 
 DROP TABLE IF EXISTS Decisor CASCADE;
-CREATE TABLE Decisor
- (
+CREATE TABLE Decisor (
     id_decisor INT NOT NULL,
     nombre_decisor CHAR(15) NOT NULL,
     cargo_decisor CHAR(15) NOT NULL,
@@ -674,8 +622,7 @@ CREATE TABLE Decisor
 );
 
 DROP TABLE IF EXISTS Orden_Compra CASCADE;
-CREATE TABLE Orden_Compra
- (
+CREATE TABLE Orden_Compra (
     id_oc INT NOT NULL,
     fecha_oc DATE NOT NULL,
     precio_total FLOAT NOT NULL,
@@ -692,8 +639,7 @@ CREATE TABLE Orden_Compra
 );
 
 DROP TABLE IF EXISTS Detalle_OC CASCADE;
-CREATE TABLE Detalle_OC
- (
+CREATE TABLE Detalle_OC (
     items INT NOT NULL,
     precio_unitario FLOAT NOT NULL,
     id_detalle_oc INT NOT NULL,
@@ -705,8 +651,7 @@ CREATE TABLE Detalle_OC
 );
 
 DROP TABLE IF EXISTS Dolor_equipo_tecnico CASCADE;
-CREATE TABLE Dolor_equipo_tecnico
- (
+CREATE TABLE Dolor_equipo_tecnico (
     fecha_asignacion DATE NOT NULL,
     id_dolor INT NOT NULL,
     id_equipo VARCHAR(20) NOT NULL,
@@ -716,8 +661,7 @@ CREATE TABLE Dolor_equipo_tecnico
 );
 
 DROP TABLE IF EXISTS Encargo_comercial CASCADE;
-CREATE TABLE Encargo_comercial
- (
+CREATE TABLE Encargo_comercial (
     id_encargo INT NOT NULL,
     nombre_encargo CHAR(10) NOT NULL,
     fecha_asignacion DATE NOT NULL,
@@ -731,8 +675,7 @@ CREATE TABLE Encargo_comercial
 );
 
 DROP TABLE IF EXISTS Encargo_proyecto CASCADE;
-CREATE TABLE Encargo_proyecto
- (
+CREATE TABLE Encargo_proyecto (
     id_encargo INT NOT NULL,
     cod_proyecto INT NOT NULL,
     FOREIGN KEY (id_encargo) REFERENCES Encargo_comercial (id_encargo),
@@ -740,8 +683,7 @@ CREATE TABLE Encargo_proyecto
 );
 
 DROP TABLE IF EXISTS Entregable_experiencia CASCADE;
-CREATE TABLE Entregable_experiencia
- (
+CREATE TABLE Entregable_experiencia (
     id_entregable INT NOT NULL,
     nombre_archivo CHAR(20) NOT NULL,
     ruta_archivo VARCHAR(20) NOT NULL,
@@ -753,8 +695,7 @@ CREATE TABLE Entregable_experiencia
 );
 
 DROP TABLE IF EXISTS Comentario_encargo CASCADE;
-CREATE TABLE Comentario_encargo
- (
+CREATE TABLE Comentario_encargo (
     id_comentario_enc INT NOT NULL,
     fecha DATE NOT NULL,
     contenido VARCHAR(200) NOT NULL,
@@ -763,9 +704,8 @@ CREATE TABLE Comentario_encargo
     FOREIGN KEY (id_encargo) REFERENCES Encargo_comercial (id_encargo)
 );
 
-DROP TABLE IF EXISTS Conversaci CASCADE;
-CREATE TABLE Conversaci
-ón_preventa (
+DROP TABLE IF EXISTS Conversación_preventa CASCADE;
+CREATE TABLE Conversación_preventa (
     tipo_conversacion CHAR(15) NOT NULL,
     Asunto VARCHAR(40) NOT NULL,
     fecha_inicio DATE NOT NULL,
@@ -780,8 +720,7 @@ CREATE TABLE Conversaci
 );
 
 DROP TABLE IF EXISTS Mensaje CASCADE;
-CREATE TABLE Mensaje
- (
+CREATE TABLE Mensaje (
     id_mensaje INT NOT NULL,
     contenido_mensaje VARCHAR(200) NOT NULL,
     fecha_hora_envio DATE NOT NULL,
@@ -791,8 +730,7 @@ CREATE TABLE Mensaje
 );
 
 DROP TABLE IF EXISTS Reunion CASCADE;
-CREATE TABLE Reunion
- (
+CREATE TABLE Reunion (
     id_reunion INT NOT NULL,
     hora_inicio TIME NOT NULL,
     hora_final TIME NOT NULL,
@@ -811,8 +749,7 @@ CREATE TABLE Reunion
 );
 
 DROP TABLE IF EXISTS Ajuste CASCADE;
-CREATE TABLE Ajuste
- (
+CREATE TABLE Ajuste (
     id_ajuste VARCHAR(15) NOT NULL,
     tipo_ajuste CHAR(10) NOT NULL,
     descripcion_ajsute VARCHAR(200) NOT NULL,
