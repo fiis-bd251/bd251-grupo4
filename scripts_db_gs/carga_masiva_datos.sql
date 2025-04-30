@@ -4,9 +4,10 @@ COPY solicitud (
   descripción_solicitud,
   fecha_solicitud,
   fecha_firma,
-  id_cliente
+  id_cliente,
+  cod_estado_solicitud
 )
-FROM 'C:\\Users\\usuario\\Desktop\\UNI-FIIS\\2025-I\\DBD\\solicitudes.csv'
+FROM 'C:\\Users\\usuario\\Desktop\\UNI-FIIS\\2025-I\\DBD\\solicitud.csv'
 WITH (
   FORMAT csv,
   HEADER true,

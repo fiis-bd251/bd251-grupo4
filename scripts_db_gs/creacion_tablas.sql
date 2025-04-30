@@ -506,15 +506,26 @@ CREATE TABLE Propuesta (
     FOREIGN KEY (id_requisitos) REFERENCES Requisitos (id_requisitos)
 );
 
+DROP TABLE IF EXISTS Solicitud_estado CASCADE;
+CREATE TABLE Solicitud_estado
+(
+  cod_estado_solicitud INT NOT NULL,
+  nombre_estado_solicitud CHAR(10) NOT NULL,
+  PRIMARY KEY (cod_estado_solicitud)
+);
+
 DROP TABLE IF EXISTS Solicitud CASCADE;
-CREATE TABLE Solicitud (
-    id_solicitud VARCHAR(50) NOT NULL,
-    descripción_solicitud VARCHAR(100) NOT NULL,
-    fecha_solicitud DATE NOT NULL,
-    fecha_firma DATE NOT NULL,
-    id_cliente INT NOT NULL,
-    PRIMARY KEY (id_solicitud),
-    FOREIGN KEY (id_cliente) REFERENCES Cliente (id_cliente)
+CREATE TABLE Solicitud
+(
+  id_solicitud VARCHAR(20) NOT NULL,
+  descripción_solicitud VARCHAR(100) NOT NULL,
+  fecha_solicitud DATE NOT NULL,
+  fecha_firma DATE NOT NULL,
+  id_cliente INT NOT NULL,
+  cod_estado_solicitud INT NOT NULL,
+  PRIMARY KEY (id_solicitud),
+  FOREIGN KEY (id_cliente) REFERENCES Cliente(id_cliente),
+  FOREIGN KEY (cod_estado_solicitud) REFERENCES Solicitud_estado(cod_estado_solicitud)
 );
 
 DROP TABLE IF EXISTS Contrato CASCADE;

@@ -502,16 +502,29 @@ INSERT INTO Validacion_detalles_tecnicos (id_validacion_detalles, estado_validac
   (7, 'PD', '2025-04-08', 7),
   (8, 'AP', '2025-04-09', 8);
 
--- Poblamiento de Solicitud (8 filas)
-INSERT INTO Solicitud (id_solicitud, descripción_solicitud, fecha_solicitud, fecha_firma, id_cliente) VALUES
-  ('SOL001', 'Servicio de consultoría TI', '2025-04-11', '2025-04-15', 1),
-  ('SOL002', 'Desarrollo de portal web',   '2025-04-12', '2025-04-16', 2),
-  ('SOL003', 'Migración de base de datos', '2025-04-13', '2025-04-17', 3),
-  ('SOL004', 'Implementación de API',      '2025-04-14', '2025-04-18', 4),
-  ('SOL005', 'Capacitación de usuarios',   '2025-04-15', '2025-04-19', 5),
-  ('SOL006', 'Auditoría de seguridad',     '2025-04-16', '2025-04-20', 6),
-  ('SOL007', 'Optimización de consultas',  '2025-04-17', '2025-04-21', 7),
-  ('SOL008', 'Despliegue en producción',   '2025-04-18', '2025-04-22', 8);
+-- Poblamiento de Solicitud_estado
+INSERT INTO Solicitud_estado (cod_estado_solicitud, nombre_estado_solicitud) VALUES
+  (1, 'Pendiente'),
+  (2, 'Revisada'),
+  (3, 'Aprobada');
+
+-- Poblamiento de Solicitud con cod_estado_solicitud incluido
+INSERT INTO Solicitud (
+  id_solicitud,
+  descripción_solicitud,
+  fecha_solicitud,
+  fecha_firma,
+  id_cliente,
+  cod_estado_solicitud
+) VALUES
+  ('SOL001', 'Servicio de consultoría TI', '2025-04-11', '2025-04-15', 1, 1),
+  ('SOL002', 'Desarrollo de portal web',   '2025-04-12', '2025-04-16', 2, 1),
+  ('SOL003', 'Migración de base de datos', '2025-04-13', '2025-04-17', 3, 2),
+  ('SOL004', 'Implementación de API',      '2025-04-14', '2025-04-18', 4, 2),
+  ('SOL005', 'Capacitación de usuarios',   '2025-04-15', '2025-04-19', 5, 1),
+  ('SOL006', 'Auditoría de seguridad',     '2025-04-16', '2025-04-20', 6, 3),
+  ('SOL007', 'Optimización de consultas',  '2025-04-17', '2025-04-21', 7, 3),
+  ('SOL008', 'Despliegue en producción',   '2025-04-18', '2025-04-22', 8, 2);
 
 -- Poblamiento de Contrato (8 filas)
 INSERT INTO Contrato (cod_contrato, nombre_contrato, monto, contenido, condiciones_contrato, id_contrato, fecha_contrato, id_version, id_solicitud) VALUES
